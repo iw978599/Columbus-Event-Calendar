@@ -1,0 +1,11 @@
+{
+  "areas": [
+    {
+      "id": "home",
+      "name": "Your City, ST",
+      "home": true,
+      "timezone": "America/New_York",
+      "note": "Home area. Researched every week for the next six weeks. Trips added from Settings appear below it."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+ "about": "Local event sources the agent has found useful, per area. The agent adds to this as it learns where good listings live (newspaper calendars, venue pages, iCal feeds, museum schedules). Edit freely.",
+ "areas": {
+  "home": []
+ }
+}

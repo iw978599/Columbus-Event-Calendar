@@ -1,0 +1,17 @@
+{
+ "about": "Taste notes the agent uses to score events (0-100) for the first person. Replace the examples with real likes; add others under 'people'. Flags on the calendar are learned on top of this.",
+ "likes": [
+  "Example: indie and experimental music in small venues",
+  "Example: revival and repertory film",
+  "Example: free museum days and gallery openings",
+  "Example: walking tours and local history"
+ ],
+ "lessLikely": [
+  "Example: arena shows",
+  "Example: sports"
+ ],
+ "people": {},
+ "learned": {
+  "updated": null
+ }
+}

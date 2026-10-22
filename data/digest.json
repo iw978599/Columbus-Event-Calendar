@@ -1,0 +1,7 @@
+{
+  "about": "Who gets the Weekend Events Digest, by name. Email addresses are NOT kept in the repo (it is public); put them in your scheduled task's instructions.",
+  "recipients": ["Person 1"],
+  "pending": [],
+  "send": "Thursday around lunch, local time",
+  "weekend": "Friday through Sunday after the send date"
+}

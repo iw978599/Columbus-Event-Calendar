@@ -1,0 +1,4 @@
+{
+ "about": "Venue addresses for map links. Key = the event venue text. Addresses from venue sites or listings only. \"map\": false for citywide or multi-venue events.",
+ "venues": {}
+}
