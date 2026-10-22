@@ -1,6 +1,7 @@
 {
   "about": "Who flags events. One person is fine; add a second for a shared household calendar. ids are short lowercase words.",
   "people": [
-    {"id": "person1", "name": "Person 1"}
+    {"id": "ian", "name": "Ian"},
+    {"id": "emily", "name": "Emily"}
   ]
 }

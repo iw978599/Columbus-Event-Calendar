@@ -1,7 +1,7 @@
 {
   "about": "Edit these after you copy the template. 'repo' and 'site' are filled in during setup (see SETUP.md).",
-  "title": "Event Calendar",
-  "repo": "OWNER/REPO",
-  "site": "https://OWNER.github.io/REPO/",
+  "title": "Columbus Event Calendar",
+  "repo": "iw978599/Columbus-Event-Calendar",
+  "site": "https://iw978599.github.io/Columbus-Event-Calendar/",
   "timezone": "America/New_York"
 }

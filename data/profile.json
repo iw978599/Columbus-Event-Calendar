@@ -1,16 +1,51 @@
 {
- "about": "Taste notes the agent uses to score events (0-100) for the first person. Replace the examples with real likes; add others under 'people'. Flags on the calendar are learned on top of this.",
+ "about": "Taste notes the agent uses to score events (0-100). Top-level likes/lessLikely are Ian (first person); Emily is under people.emily. Shared household likes appear in both. Flags on the calendar are learned on top of this.",
+ "family": {
+  "rule": "On family days, actively include family-friendly / kid-friendly events (kids-only programming is OK) alongside the usual adult events. On other days, skip kids-only programming.",
+  "weekdays": [
+   "Wednesday",
+   "Thursday",
+   "Friday"
+  ],
+  "alternatingSaturdays": {
+   "first": "2026-10-31",
+   "everyWeeks": 2,
+   "note": "Family Saturdays are 2026-10-31 and every 14 days after (11/14, 11/28, 12/12, ...). The Saturdays in between are not family days."
+  },
+  "kidsAges": [
+   4,
+   10
+  ],
+  "ageNote": "Kids are 4 and 10. Prefer events that work for both ages together (zoo, COSI, parks, festivals, family concerts, library programs); toddler-only or teen-only events score lower."
+ },
  "likes": [
-  "Example: indie and experimental music in small venues",
-  "Example: revival and repertory film",
-  "Example: free museum days and gallery openings",
-  "Example: walking tours and local history"
+  "Board games: game nights, game cafes, tabletop meetups and conventions",
+  "Hikes and outdoor walks (Metro Parks, nature preserves, guided hikes)",
+  "Indie rock concerts, especially in small and mid-size venues",
+  "Dance nights: goth, darkwave, synthwave, 80s, house and indie dance parties",
+  "Movies: new releases, indie and repertory screenings, special one-night showings",
+  "Farmers markets",
+  "Other markets: makers, craft, flea, holiday and night markets",
+  "Brewery events: trivia, live music, release parties, food trucks, festivals"
  ],
  "lessLikely": [
-  "Example: arena shows",
-  "Example: sports"
+  "Singles / speed-dating / dating-themed events",
+  "Pet-centered events (dog yoga, pup nights, adoption events)"
  ],
- "people": {},
+ "people": {
+  "emily": {
+   "likes": [
+    "Movies: new releases, indie and repertory screenings, special one-night showings",
+    "Farmers markets",
+    "Other markets: makers, craft, flea, holiday and night markets",
+    "Brewery events: trivia, live music, release parties, food trucks, festivals"
+   ],
+   "lessLikely": [
+    "Singles / speed-dating / dating-themed events",
+    "Pet-centered events (dog yoga, pup nights, adoption events)"
+   ]
+  }
+ },
  "learned": {
   "updated": null
  }

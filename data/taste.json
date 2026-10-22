@@ -1,7 +1,12 @@
 {
  "about": "Plain-language summary of what the agent has learned about each person. Shown and editable in Settings; edits by a person are treated as authoritative.",
  "people": {
-  "person1": {
+  "ian": {
+   "summary": "Nothing learned yet. Edit this to describe what you enjoy (and what you don't), or just flag events and the agent will fill it in.",
+   "updated": null,
+   "updatedBy": "agent"
+  },
+  "emily": {
    "summary": "Nothing learned yet. Edit this to describe what you enjoy (and what you don't), or just flag events and the agent will fill it in.",
    "updated": null,
    "updatedBy": "agent"

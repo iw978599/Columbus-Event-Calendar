@@ -44,7 +44,8 @@ Each time a source proves useful, add it to `data/sources.json` under its area (
 
 Rules:
 - Never invent a date, time or price. If cost is unknown, write `"See site"` and `free: null`.
-- Skip civic meetings, support groups, job fairs, kids-only programming and generic bar crawls unless the profile says otherwise.
+- Skip civic meetings, support groups, job fairs and generic bar crawls unless the profile says otherwise.
+- **Family days:** follow `profile.json → family`. On family days (the listed weekdays, plus the alternating Saturdays counted every 14 days from `first`), actively research family-friendly and kid-friendly events (kids-only programming is fine) and tag them `family`. On all other days, skip kids-only programming.
 - Prefer the venue's own page for `url`.
 - Respect site blocks: if a fetch is refused, use another source; never route around a block, paywall or login.
 
