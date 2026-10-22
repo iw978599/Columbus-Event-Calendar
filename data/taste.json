@@ -2,13 +2,13 @@
  "about": "Plain-language summary of what the agent has learned about each person. Shown and editable in Settings; edits by a person are treated as authoritative.",
  "people": {
   "ian": {
-   "summary": "Nothing learned yet. Edit this to describe what you enjoy (and what you don't), or just flag events and the agent will fill it in.",
-   "updated": null,
+   "summary": "Based on 0 flags so far, so this comes from your starting profile.\n- Likes: board games, hikes, indie rock and small-venue shows, goth/darkwave/80s dance nights, movies, farmers and makers markets, brewery events.\n- Passes on: singles events and pet-centered events.\n- Nothing learned from flags yet.",
+   "updated": "2026-10-22T19:55:00-04:00",
    "updatedBy": "agent"
   },
   "emily": {
-   "summary": "Nothing learned yet. Edit this to describe what you enjoy (and what you don't), or just flag events and the agent will fill it in.",
-   "updated": null,
+   "summary": "Based on 0 flags so far, so this comes from your starting profile.\n- Likes: movies, farmers and makers markets, brewery events.\n- Passes on: singles events and pet-centered events.\n- Nothing learned from flags yet.",
+   "updated": "2026-10-22T19:55:00-04:00",
    "updatedBy": "agent"
   }
  }

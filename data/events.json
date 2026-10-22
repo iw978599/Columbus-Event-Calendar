@@ -1,4 +1,437 @@
 {
- "updated": null,
- "events": []
+ "updated": "2026-10-22T19:55:00-04:00",
+ "events": [
+  {
+   "id": "2026-10-23-columbus-symphony-mysteries-anthems-and-",
+   "area": "home",
+   "title": "Columbus Symphony: Mysteries, Anthems and Victories",
+   "category": "music",
+   "start": "2026-10-23T19:30",
+   "venue": "Ohio Theatre",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.nbc4i.com/news/local-news/central-ohio-news/central-ohio-october-festivities/",
+   "base": 60,
+   "description": "Columbus Symphony concert in its 75th anniversary season.",
+   "summary": "Repeats Saturday Oct 24 at 7:30 p.m.",
+   "tags": [],
+   "source": "NBC4 weekend guide"
+  },
+  {
+   "id": "2026-10-24-columbus-symphony-mysteries-anthems-and-",
+   "area": "home",
+   "title": "Columbus Symphony: Mysteries, Anthems and Victories",
+   "category": "music",
+   "start": "2026-10-24T19:30",
+   "venue": "Ohio Theatre",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.nbc4i.com/news/local-news/central-ohio-news/central-ohio-october-festivities/",
+   "base": 58,
+   "description": "Second performance of the Columbus Symphony's 75th anniversary season program.",
+   "tags": [
+    "classical",
+    "symphony"
+   ],
+   "source": "NBC4 weekend guide"
+  },
+  {
+   "id": "2026-10-23-the-bobby-lees",
+   "area": "home",
+   "title": "The Bobby Lees",
+   "category": "music",
+   "start": "2026-10-23",
+   "allDay": true,
+   "venue": "Skully's Music Diner",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.songkick.com/concerts/43212165-bobby-lees-at-skullys-music-diner",
+   "base": 72,
+   "description": "Live rock show at Skully's, a roughly 800-capacity club.",
+   "summary": "Showtime not confirmed; check the venue.",
+   "tags": [
+    "indie-rock",
+    "punk",
+    "live-music"
+   ],
+   "source": "Songkick"
+  },
+  {
+   "id": "2026-10-23-columbus-zoo-lantern-festival",
+   "area": "home",
+   "title": "Columbus Zoo Lantern Festival",
+   "category": "festival",
+   "start": "2026-10-23T19:30",
+   "end": "2026-10-23T22:30",
+   "until": "2026-10-25",
+   "venue": "Columbus Zoo and Aquarium",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.columbuszoo.org/fall",
+   "base": 66,
+   "description": "Evening lantern festival at the zoo, open Thursdays through Sundays until Oct. 25.",
+   "summary": "Thu–Sun, 7:30–10:30 p.m.; last weekend.",
+   "tags": [
+    "family",
+    "lanterns",
+    "zoo",
+    "outdoors"
+   ],
+   "source": "Columbus Zoo"
+  },
+  {
+   "id": "2026-10-24-boo-at-the-zoo",
+   "area": "home",
+   "title": "Boo at the Zoo",
+   "category": "community",
+   "start": "2026-10-24T10:00",
+   "end": "2026-10-24T18:00",
+   "until": "2026-10-25",
+   "venue": "Columbus Zoo and Aquarium",
+   "cost": "Included with zoo admission",
+   "free": false,
+   "url": "https://www.columbuszoo.org/events/boo-zoo",
+   "base": 70,
+   "description": "Daytime Halloween event in Adventure Cove with a 13-station Trick or Treat Trail, a Character Ambassador Fun House, a hay maze and a giant pumpkin carving. Costumes encouraged for guests under 13 and their guardians.",
+   "summary": "Final weekend (Oct 24–25), 10 a.m.–6 p.m.",
+   "tags": [
+    "family",
+    "halloween",
+    "zoo",
+    "outdoors"
+   ],
+   "source": "Columbus Zoo"
+  },
+  {
+   "id": "2026-10-24-dial-m-for-murder-3d-4k-restoration",
+   "area": "home",
+   "title": "Dial M for Murder (3D 4K restoration)",
+   "category": "film",
+   "start": "2026-10-24T14:00",
+   "venue": "Gateway Film Center",
+   "cost": "See site",
+   "free": null,
+   "url": "https://gatewayfilmcenter.org",
+   "base": 76,
+   "description": "Hitchcock's thriller in a 3D 4K restoration, part of Gateway's Hitchcocktober series.",
+   "tags": [
+    "film",
+    "hitchcock",
+    "repertory",
+    "thriller"
+   ],
+   "source": "NBC4 weekend guide"
+  },
+  {
+   "id": "2026-10-25-columbus-symphony-halloween-spooktacular",
+   "area": "home",
+   "title": "Columbus Symphony Halloween Spooktacular",
+   "category": "music",
+   "start": "2026-10-25T14:00",
+   "venue": "Ohio Theatre",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.nbc4i.com/news/local-news/central-ohio-news/central-ohio-october-festivities/",
+   "base": 64,
+   "description": "Family concert with pre-concert crafts, trick-or-treating and a costume contest.",
+   "tags": [
+    "family",
+    "halloween",
+    "symphony"
+   ],
+   "source": "NBC4 weekend guide"
+  },
+  {
+   "id": "2026-10-24-circleville-pumpkin-show",
+   "area": "home",
+   "title": "Circleville Pumpkin Show",
+   "category": "festival",
+   "start": "2026-10-24",
+   "allDay": true,
+   "venue": "Circleville",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.nbc4i.com/news/local-news/central-ohio-news/central-ohio-october-festivities/",
+   "base": 45,
+   "description": "Long-running pumpkin festival about 25 miles south of Columbus, running through Saturday Oct. 24.",
+   "summary": "Last day is Oct 24.",
+   "tags": [
+    "festival",
+    "pumpkin",
+    "family"
+   ],
+   "source": "NBC4 weekend guide",
+   "map": false
+  },
+  {
+   "id": "2026-10-29-willi-carlisle",
+   "area": "home",
+   "title": "Willi Carlisle",
+   "category": "music",
+   "start": "2026-10-29",
+   "allDay": true,
+   "venue": "Skully's Music Diner",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.songkick.com/concerts/43322935-willi-carlisle-at-skullys-music-diner",
+   "base": 74,
+   "description": "Live show at Skully's.",
+   "tags": [
+    "folk",
+    "live-music"
+   ],
+   "source": "Songkick"
+  },
+  {
+   "id": "2026-10-29-the-wrecks-and-worry-club",
+   "area": "home",
+   "title": "The Wrecks and Worry Club",
+   "category": "music",
+   "start": "2026-10-29",
+   "allDay": true,
+   "venue": "Newport Music Hall",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.songkick.com/concerts/43323434-laszewo-at-newport-music-hall",
+   "base": 70,
+   "description": "Indie/alt rock double bill at Newport Music Hall.",
+   "tags": [
+    "indie-rock",
+    "live-music"
+   ],
+   "source": "Songkick"
+  },
+  {
+   "id": "2026-10-30-the-damned",
+   "area": "home",
+   "title": "The Damned",
+   "category": "music",
+   "start": "2026-10-30T19:00",
+   "venue": "Newport Music Hall",
+   "cost": "From about $63 (resale)",
+   "free": false,
+   "url": "https://www.tickpick.com/buy-the-damned-tickets-newport-music-hall-10-30-26-7pm/7896693/",
+   "base": 82,
+   "description": "The British punk and goth-rock pioneers behind 'New Rose' play Newport Music Hall.",
+   "tags": [
+    "punk",
+    "goth",
+    "post-punk",
+    "live-music"
+   ],
+   "source": "TickPick"
+  },
+  {
+   "id": "2026-10-30-american-aquarium",
+   "area": "home",
+   "title": "American Aquarium",
+   "category": "music",
+   "start": "2026-10-30",
+   "allDay": true,
+   "venue": "Rumba Cafe",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.songkick.com/concerts/43322935-willi-carlisle-at-skullys-music-diner",
+   "base": 66,
+   "description": "Americana/alt-country band at Rumba Cafe, a ~200-capacity room.",
+   "tags": [
+    "americana",
+    "live-music"
+   ],
+   "source": "Songkick"
+  },
+  {
+   "id": "2026-11-01-maddie-zahm",
+   "area": "home",
+   "title": "Maddie Zahm",
+   "category": "music",
+   "start": "2026-11-01",
+   "allDay": true,
+   "venue": "Skully's Music Diner",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.songkick.com/concerts/43315228-maddie-zahm-at-skullys-music-diner",
+   "base": 50,
+   "description": "Singer-songwriter live at Skully's.",
+   "tags": [
+    "live-music",
+    "pop"
+   ],
+   "source": "Songkick"
+  },
+  {
+   "id": "2026-11-05-first-thursdays-at-the-wexner-center",
+   "area": "home",
+   "title": "First Thursdays at the Wexner Center",
+   "category": "museum",
+   "start": "2026-11-05T10:00",
+   "end": "2026-11-05T20:00",
+   "venue": "Wexner Center for the Arts",
+   "cost": "Free",
+   "free": true,
+   "url": "https://arts.osu.edu/events/first-thursdays-fall-2026-1",
+   "base": 64,
+   "description": "Free day-long access to the Wexner Center's fall exhibitions, with an artist talk by Mark Dion at 4 p.m. and a Sketch Series at 6 p.m.",
+   "tags": [
+    "art",
+    "exhibition",
+    "talk"
+   ],
+   "source": "OSU Arts"
+  },
+  {
+   "id": "2026-11-08-the-jazz-room-a-journey-to-the-heart-of-",
+   "area": "home",
+   "title": "The Jazz Room: A Journey to the Heart of New Orleans",
+   "category": "music",
+   "start": "2026-11-08T16:00",
+   "venue": "Columbus Museum of Art",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.tickpick.com/buy-the-jazz-room-a-journey-to-the-heart-of-new-orleans-tickets-columbus-museum-of-art-11-8-26-4pm/8125077/",
+   "base": 58,
+   "description": "Jazz concert at the Columbus Museum of Art; a second 6 p.m. performance is listed.",
+   "summary": "Also listed at 6 p.m.; confirm with the museum.",
+   "tags": [
+    "jazz",
+    "live-music"
+   ],
+   "source": "TickPick"
+  },
+  {
+   "id": "2026-11-11-elevation-rhythm",
+   "area": "home",
+   "title": "Elevation Rhythm",
+   "category": "music",
+   "start": "2026-11-11T19:00",
+   "venue": "Mershon Auditorium",
+   "cost": "From about $52 (resale)",
+   "free": false,
+   "url": "https://www.tickpick.com/buy-elevation-rhythm-tickets-mershon-auditorium-at-wexner-center-for-the-arts-11-11-26-7pm/8165128/",
+   "base": 48,
+   "description": "Concert at Mershon Auditorium.",
+   "tags": [
+    "live-music"
+   ],
+   "source": "TickPick"
+  },
+  {
+   "id": "2026-11-14-bethel-holiday-market",
+   "area": "home",
+   "title": "Bethel Holiday Market",
+   "category": "food",
+   "start": "2026-11-14T09:00",
+   "venue": "Bethel International United Methodist Church",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.eventbrite.com/d/oh--columbus/festivals/",
+   "base": 52,
+   "description": "Church holiday market and craft sale.",
+   "tags": [
+    "market",
+    "holiday",
+    "makers"
+   ],
+   "source": "Eventbrite"
+  },
+  {
+   "id": "2026-11-15-columbus-holiday-market",
+   "area": "home",
+   "title": "Columbus Holiday Market",
+   "category": "community",
+   "start": "2026-11-15T11:00",
+   "end": "2026-11-15T17:00",
+   "venue": "Polaris Fashion Place",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.fairsandfestivals.net/events/details/2026-columbus-holiday-market",
+   "base": 56,
+   "description": "One-day holiday market with makers and vendors.",
+   "summary": "Dates from an aggregator; confirm with organizers.",
+   "tags": [
+    "market",
+    "holiday",
+    "makers"
+   ],
+   "source": "Fairs & Festivals"
+  },
+  {
+   "id": "2026-11-15-yaelokre-and-ben-caplan",
+   "area": "home",
+   "title": "Yaelokre and Ben Caplan",
+   "category": "music",
+   "start": "2026-11-15",
+   "allDay": true,
+   "venue": "Newport Music Hall",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.songkick.com/concerts/43278161-yaelokre-at-newport-music-hall",
+   "base": 52,
+   "description": "Double bill at Newport Music Hall.",
+   "tags": [
+    "live-music"
+   ],
+   "source": "Songkick"
+  },
+  {
+   "id": "2026-11-20-ohio-made-holiday-market",
+   "area": "home",
+   "title": "Ohio Made Holiday Market",
+   "category": "community",
+   "start": "2026-11-20",
+   "until": "2026-11-21",
+   "venue": "Hollywood Casino Columbus",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.thecraftmap.com/fair/ohio-made-holiday-market-columbus-oh",
+   "base": 72,
+   "description": "Juried handmade market with 80+ Ohio makers: decor, fashion, jewelry and gourmet treats.",
+   "summary": "Listed Nov 20–21; hours and dates from an aggregator, confirm at ohiomademarket.com.",
+   "tags": [
+    "market",
+    "holiday",
+    "makers"
+   ],
+   "source": "The Craft Map",
+   "allDay": true
+  },
+  {
+   "id": "2026-11-21-caiola-with-bre-kennedy",
+   "area": "home",
+   "title": "Caiola with Bre Kennedy",
+   "category": "music",
+   "start": "2026-11-21",
+   "allDay": true,
+   "venue": "Rumba Cafe",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.songkick.com/concerts/43244263-caiola-at-rumba-cafe",
+   "base": 58,
+   "description": "Live show at Rumba Cafe.",
+   "tags": [
+    "live-music",
+    "indie"
+   ],
+   "source": "Songkick"
+  },
+  {
+   "id": "2026-11-22-streetlight-manifesto",
+   "area": "home",
+   "title": "Streetlight Manifesto",
+   "category": "music",
+   "start": "2026-11-22T20:00",
+   "venue": "KEMBA Live!",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.songkick.com/concerts/43196817-ninajirachi-at-kemba-live",
+   "base": 66,
+   "description": "Ska-punk band live at KEMBA Live!.",
+   "tags": [
+    "ska",
+    "punk",
+    "live-music"
+   ],
+   "source": "Songkick"
+  }
+ ]
 }

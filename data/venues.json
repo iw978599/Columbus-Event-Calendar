@@ -1,4 +1,11 @@
 {
  "about": "Venue addresses for map links. Key = the event venue text. Addresses from venue sites or listings only. \"map\": false for citywide or multi-venue events.",
- "venues": {}
+ "venues": {
+  "Skully's Music Diner": {
+   "address": "1151 N. High St., Columbus, OH"
+  },
+  "Newport Music Hall": {
+   "address": "1722 N. High St., Columbus, OH"
+  }
+ }
 }
