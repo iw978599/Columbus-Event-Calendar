@@ -12,7 +12,7 @@
    "free": null,
    "url": "https://cringe.com/shows.php",
    "base": 60,
-   "description": "Coffee beer fest at Combustion Brewery & Tap, Fri\u2013Sun.",
+   "description": "Coffee beer fest at Combustion Brewery & Tap, Fri–Sun.",
    "tags": [
     "brewery",
     "festival"
@@ -68,7 +68,7 @@
    "url": "https://www.columbuszoo.org/fall",
    "base": 66,
    "description": "Evening lantern festival at the zoo, open Thursdays through Sundays until Oct. 25.",
-   "summary": "Thu\u2013Sun, 7:30\u201310:30 p.m.; last weekend.",
+   "summary": "Thu–Sun, 7:30–10:30 p.m.; last weekend.",
    "tags": [
     "family",
     "lanterns",
@@ -150,7 +150,7 @@
    "url": "https://www.columbuszoo.org/events/boo-zoo",
    "base": 70,
    "description": "Daytime Halloween event in Adventure Cove with a 13-station Trick or Treat Trail, a Character Ambassador Fun House, a hay maze and a giant pumpkin carving. Costumes encouraged for guests under 13 and their guardians.",
-   "summary": "Final weekend (Oct 24\u201325), 10 a.m.\u20136 p.m.",
+   "summary": "Final weekend (Oct 24–25), 10 a.m.–6 p.m.",
    "tags": [
     "family",
     "halloween",
@@ -190,7 +190,7 @@
    "free": true,
    "url": "https://cringe.com/shows.php",
    "base": 60,
-   "description": "Free installation and workshop of a miniature Halloween village; sensory-friendly hours Sunday 11 a.m.\u2013noon.",
+   "description": "Free installation and workshop of a miniature Halloween village; sensory-friendly hours Sunday 11 a.m.–noon.",
    "tags": [
     "family",
     "halloween",
@@ -373,7 +373,7 @@
   {
    "id": "2026-10-25-halloween-cover-shows-for-wcbe-rem-nants",
    "area": "home",
-   "title": "Halloween Cover Shows for WCBE: REM-nants, FreeTVs, Iz\u00f6ra Patriksoot\u00edr, The S...",
+   "title": "Halloween Cover Shows for WCBE: REM-nants, FreeTVs, Izöra Patriksootír, The S...",
    "category": "music",
    "start": "2026-10-25T16:00",
    "venue": "Rumba Cafe",
@@ -381,7 +381,7 @@
    "free": false,
    "url": "https://columbusrumbacafe.com",
    "base": 68,
-   "description": "Second night of the WCBE Halloween cover shows, local bands covering R.E.M., Radiohead, Bj\u00f6rk and more.",
+   "description": "Second night of the WCBE Halloween cover shows, local bands covering R.E.M., Radiohead, Björk and more.",
    "tags": [
     "live-music",
     "cover-show",
@@ -621,7 +621,7 @@
   {
    "id": "2026-10-30-d-a-de-los-muertos-at-the-wexner-center",
    "area": "home",
-   "title": "D\u00eda de los muertos at the Wexner Center",
+   "title": "Día de los muertos at the Wexner Center",
    "category": "community",
    "start": "2026-10-30T17:00",
    "venue": "Wexner Center for the Arts",
@@ -629,7 +629,7 @@
    "free": true,
    "url": "http://wexarts.org",
    "base": 58,
-   "description": "D\u00eda de los muertos poetry readings and dance performances; free with ticket.",
+   "description": "Día de los muertos poetry readings and dance performances; free with ticket.",
    "tags": [
     "dia-de-los-muertos",
     "performance"
@@ -862,7 +862,7 @@
   {
    "id": "2026-11-01-community-days-d-a-de-los-muertos",
    "area": "home",
-   "title": "Community Days: D\u00eda de los Muertos",
+   "title": "Community Days: Día de los Muertos",
    "category": "museum",
    "start": "2026-11-01T10:00",
    "venue": "Columbus Museum of Art",
@@ -870,7 +870,7 @@
    "free": true,
    "url": "http://columbusmuseum.org",
    "base": 72,
-   "description": "Free D\u00eda de los Muertos community day for all ages at the Columbus Museum of Art.",
+   "description": "Free Día de los Muertos community day for all ages at the Columbus Museum of Art.",
    "tags": [
     "family",
     "museum",
@@ -1526,7 +1526,7 @@
   {
    "id": "2026-11-15-strawberry-girls-andr-s",
    "area": "home",
-   "title": "Strawberry Girls, Andr\u00e9s",
+   "title": "Strawberry Girls, Andrés",
    "category": "music",
    "start": "2026-11-15T19:00",
    "venue": "Ace of Cups",
@@ -1534,7 +1534,7 @@
    "free": false,
    "url": "https://aceofcupsbar.com/",
    "base": 66,
-   "description": "Strawberry Girls and Andr\u00e9s.",
+   "description": "Strawberry Girls and Andrés.",
    "tags": [
     "indie-rock",
     "live-music"
@@ -1554,7 +1554,7 @@
    "url": "https://www.thecraftmap.com/fair/ohio-made-holiday-market-columbus-oh",
    "base": 72,
    "description": "Juried handmade market with 80+ Ohio makers: decor, fashion, jewelry and gourmet treats.",
-   "summary": "Listed Nov 20\u201321; hours and dates from an aggregator, confirm at ohiomademarket.com.",
+   "summary": "Listed Nov 20–21; hours and dates from an aggregator, confirm at ohiomademarket.com.",
    "tags": [
     "market",
     "holiday",
