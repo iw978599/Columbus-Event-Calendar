@@ -3,6 +3,11 @@
  "areas": {
   "home": [
    {
+    "name": "Cringe",
+    "url": "https://cringe.com",
+    "goodFor": "Columbus event listings (recommended by Ian)"
+   },
+   {
     "name": "NBC4 Columbus weekend events roundup",
     "url": "https://www.nbc4i.com/news/local-news/central-ohio-news/central-ohio-october-festivities/",
     "goodFor": "weekly weekend roundup"
