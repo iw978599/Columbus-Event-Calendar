@@ -609,7 +609,7 @@
    "venue": "Rumba Cafe",
    "cost": "See site",
    "free": null,
-   "url": "https://www.songkick.com/concerts/43322935-willi-carlisle-at-skullys-music-diner",
+   "url": "https://www.songkick.com/metro-areas/9480-us-columbus",
    "base": 66,
    "description": "Americana/alt-country band at Rumba Cafe, a ~200-capacity room.",
    "tags": [
@@ -839,25 +839,6 @@
     "halloween"
    ],
    "source": "Cringe.com"
-  },
-  {
-   "id": "2026-11-01-maddie-zahm",
-   "area": "home",
-   "title": "Maddie Zahm",
-   "category": "music",
-   "start": "2026-11-01",
-   "allDay": true,
-   "venue": "Skully's Music Diner",
-   "cost": "See site",
-   "free": null,
-   "url": "https://www.songkick.com/concerts/43315228-maddie-zahm-at-skullys-music-diner",
-   "base": 50,
-   "description": "Singer-songwriter live at Skully's.",
-   "tags": [
-    "live-music",
-    "pop"
-   ],
-   "source": "Songkick"
   },
   {
    "id": "2026-11-01-community-days-d-a-de-los-muertos",
