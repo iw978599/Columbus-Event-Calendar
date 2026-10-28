@@ -36,18 +36,31 @@
   "emily": {
    "likes": [
     "Movies: new releases, indie and repertory screenings, special one-night showings",
+    "Movie screenings in parks, for adults and for kids",
+    "Concerts",
+    "Brunch events",
+    "Openings of new places: bars, restaurants and venues (grand openings, soft openings, launch parties)",
+    "Costume and theme nights at bars",
+    "Queer women / lesbian events and parties (not gay men's events)",
+    "Art events: gallery openings, gallery hops, art fairs",
+    "Adult nights at museums (not COSI)",
+    "Adult events in Grandview, Dublin and Upper Arlington",
+    "Kid-friendly events",
+    "Free intro and beginner classes (dance, art, fitness, crafts, etc.)",
     "Farmers markets",
     "Other markets: makers, craft, flea, holiday and night markets",
     "Brewery events: trivia, live music, release parties, food trucks, festivals"
    ],
    "lessLikely": [
+    "Gay men's-focused events",
+    "COSI adult nights",
     "Singles / speed-dating / dating-themed events",
     "Pet-centered events (dog yoga, pup nights, adoption events)"
    ]
   }
  },
  "learned": {
-  "updated": "2026-10-23T00:08",
+  "updated": "2026-10-27T21:48",
   "ian": {
    "category": {},
    "venue": {},

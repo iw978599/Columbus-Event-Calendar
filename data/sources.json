@@ -31,6 +31,41 @@
     "name": "The Craft Map Columbus",
     "url": "https://www.thecraftmap.com/fairs/ohio/columbus",
     "goodFor": "craft and holiday markets"
+   },
+   {
+    "name": "Cringe all-4-weeks view",
+    "url": "https://cringe.com/all4weeks.php",
+    "goodFor": "full 4-week listing on one page (long; read with offsets). Refreshes Sundays."
+   },
+   {
+    "name": "Gateway Film Center upcoming films",
+    "url": "https://gatewayfilmcenter.org/our-program/upcoming-films/",
+    "goodFor": "openings, repertory series, one-night screenings"
+   },
+   {
+    "name": "Out x Out (Slammers listings)",
+    "url": "https://outxout.com",
+    "goodFor": "LGBTQ+ nights; Slammers (lesbian bar) trivia, DJ nights"
+   },
+   {
+    "name": "Stonewall Columbus calendar",
+    "url": "https://stonewallcolumbus.org/calendar/",
+    "goodFor": "queer community events, women's book club, classes"
+   },
+   {
+    "name": "Columbus Zoo Wildlights",
+    "url": "https://www.columbuszoo.org/wildlights",
+    "goodFor": "holiday lights, family"
+   },
+   {
+    "name": "Fairs & Festivals Columbus",
+    "url": "https://www.fairsandfestivals.net",
+    "goodFor": "holiday markets with dates and addresses"
+   },
+   {
+    "name": "Short North Gallery Hop",
+    "url": "https://shortnorth.org",
+    "goodFor": "first-Saturday art walk"
    }
   ]
  }

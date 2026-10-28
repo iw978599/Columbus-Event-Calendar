@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T20:30:00-04:00",
+ "updated": "2026-10-27T15:00:00-04:00",
  "events": [
   {
    "id": "2026-10-23-buzz-brew-coffee-beer-fest",
@@ -1600,6 +1600,998 @@
     "live-music"
    ],
    "source": "Songkick"
+  },
+  {
+   "id": "2026-10-28-silents-synced-nosferatu-1922-with-music",
+   "area": "home",
+   "title": "Silents Synced: Nosferatu (1922) with music by Radiohead",
+   "category": "film",
+   "start": "2026-10-28T19:45",
+   "venue": "Gateway Film Center",
+   "cost": "See site",
+   "free": null,
+   "url": "https://gatewayfilmcenter.org/our-program/upcoming-films/",
+   "base": 80,
+   "description": "F. W. Murnau's 1922 silent vampire classic, screened with a soundtrack synced to Radiohead's music. Part of the From the Collection repertory series.",
+   "tags": [
+    "repertory",
+    "horror",
+    "one-night"
+   ],
+   "source": "Gateway Film Center"
+  },
+  {
+   "id": "2026-10-29-fjord",
+   "area": "home",
+   "title": "Fjord",
+   "category": "film",
+   "start": "2026-10-29",
+   "allDay": true,
+   "until": "2026-11-04",
+   "venue": "Gateway Film Center",
+   "cost": "See site",
+   "free": null,
+   "url": "https://gatewayfilmcenter.org/our-program/upcoming-films/",
+   "base": 68,
+   "description": "Cristian Mungiu's 2026 Palme d'Or winner, a drama about protection and control. World Spotlight series.",
+   "tags": [
+    "new-release",
+    "international"
+   ],
+   "source": "Gateway Film Center"
+  },
+  {
+   "id": "2026-10-29-everest-the-other-side",
+   "area": "home",
+   "title": "Everest: The Other Side",
+   "category": "film",
+   "start": "2026-10-29",
+   "allDay": true,
+   "until": "2026-11-04",
+   "venue": "Gateway Film Center",
+   "cost": "See site",
+   "free": null,
+   "url": "https://gatewayfilmcenter.org/our-program/upcoming-films/",
+   "base": 62,
+   "description": "Documentary from Elizabeth Chai Vasarhelyi and Jimmy Chin, the team behind Free Solo. Festival Perspectives series.",
+   "tags": [
+    "new-release",
+    "documentary",
+    "outdoors"
+   ],
+   "source": "Gateway Film Center"
+  },
+  {
+   "id": "2026-10-29-the-only-living-pickpocket-in-new-york",
+   "area": "home",
+   "title": "The Only Living Pickpocket in New York",
+   "category": "film",
+   "start": "2026-10-29",
+   "allDay": true,
+   "until": "2026-11-05",
+   "venue": "Gateway Film Center",
+   "cost": "See site",
+   "free": null,
+   "url": "https://gatewayfilmcenter.org/our-program/upcoming-films/",
+   "base": 62,
+   "description": "Noah Segan's 2026 film about a veteran pickpocket hunting stolen goods across New York. Festival Perspectives series.",
+   "tags": [
+    "new-release",
+    "indie"
+   ],
+   "source": "Gateway Film Center"
+  },
+  {
+   "id": "2026-10-30-wild-horse-nine-sneak-preview",
+   "area": "home",
+   "title": "Wild Horse Nine: sneak preview",
+   "category": "film",
+   "start": "2026-10-30T19:00",
+   "venue": "Gateway Film Center",
+   "cost": "See site",
+   "free": null,
+   "url": "https://gatewayfilmcenter.org/our-program/upcoming-films/",
+   "base": 72,
+   "description": "Early screening of Martin McDonagh's new film, in which CIA agents face a trust-testing mission to Easter Island.",
+   "summary": "Also listed Nov 5.",
+   "tags": [
+    "new-release",
+    "one-night"
+   ],
+   "source": "Gateway Film Center"
+  },
+  {
+   "id": "2026-10-30-wild-at-heart-1990-4k-restoration",
+   "area": "home",
+   "title": "Wild at Heart (1990) 4K restoration",
+   "category": "film",
+   "start": "2026-10-30",
+   "allDay": true,
+   "until": "2026-11-04",
+   "venue": "Gateway Film Center",
+   "cost": "See site",
+   "free": null,
+   "url": "https://gatewayfilmcenter.org/our-program/upcoming-films/",
+   "base": 72,
+   "description": "David Lynch's road-movie love story about a couple on the run from hired hitmen, in a new 4K restoration.",
+   "tags": [
+    "repertory",
+    "cult"
+   ],
+   "source": "Gateway Film Center"
+  },
+  {
+   "id": "2026-10-30-the-nightmare-before-christmas-1993-4k-r",
+   "area": "home",
+   "title": "The Nightmare Before Christmas (1993) 4K restoration",
+   "category": "film",
+   "start": "2026-10-30",
+   "allDay": true,
+   "until": "2026-11-04",
+   "venue": "Gateway Film Center",
+   "cost": "See site",
+   "free": null,
+   "url": "https://gatewayfilmcenter.org/our-program/upcoming-films/",
+   "base": 74,
+   "description": "Henry Selick's stop-motion musical, in which Jack Skellington of Halloween Town tries to take over Christmas. Works for the 10-year-old; may be spooky for the 4-year-old.",
+   "tags": [
+    "repertory",
+    "family",
+    "animation"
+   ],
+   "source": "Gateway Film Center"
+  },
+  {
+   "id": "2026-10-31-hitchcocktober-psycho-1960-4k-restoratio",
+   "area": "home",
+   "title": "Hitchcocktober: Psycho (1960) 4K restoration",
+   "category": "film",
+   "start": "2026-10-31",
+   "allDay": true,
+   "until": "2026-11-01",
+   "venue": "Gateway Film Center",
+   "cost": "See site",
+   "free": null,
+   "url": "https://gatewayfilmcenter.org/hitchcocktober/",
+   "base": 74,
+   "description": "Alfred Hitchcock's thriller set at the Bates Motel, in 4K. The last film in Gateway's Hitchcocktober series.",
+   "tags": [
+    "repertory",
+    "horror",
+    "classic"
+   ],
+   "source": "Gateway Film Center"
+  },
+  {
+   "id": "2026-11-04-the-last-temptation-of-becky",
+   "area": "home",
+   "title": "The Last Temptation of Becky",
+   "category": "film",
+   "start": "2026-11-04",
+   "allDay": true,
+   "until": "2026-11-05",
+   "venue": "Gateway Film Center",
+   "cost": "See site",
+   "free": null,
+   "url": "https://gatewayfilmcenter.org/our-program/upcoming-films/",
+   "base": 58,
+   "description": "Jenn Wexler's 2026 film about a CIA field agent who goes undercover at a tourist bunker in Poland. Two nights only.",
+   "tags": [
+    "new-release",
+    "indie"
+   ],
+   "source": "Gateway Film Center"
+  },
+  {
+   "id": "2026-11-05-godzilla-minus-zero",
+   "area": "home",
+   "title": "Godzilla Minus Zero",
+   "category": "film",
+   "start": "2026-11-05",
+   "allDay": true,
+   "venue": "Gateway Film Center",
+   "cost": "See site",
+   "free": null,
+   "url": "https://gatewayfilmcenter.org/our-program/upcoming-films/",
+   "base": 70,
+   "description": "Takashi Yamazaki's follow-up to his Oscar-winning Godzilla Minus One. World Spotlight series. Good for the 10-year-old.",
+   "summary": "Gateway lists it starting Nov 5–6; check showtimes.",
+   "tags": [
+    "new-release",
+    "international",
+    "family"
+   ],
+   "source": "Gateway Film Center"
+  },
+  {
+   "id": "2026-11-06-fatherland",
+   "area": "home",
+   "title": "Fatherland",
+   "category": "film",
+   "start": "2026-11-06",
+   "allDay": true,
+   "venue": "Gateway Film Center",
+   "cost": "See site",
+   "free": null,
+   "url": "https://gatewayfilmcenter.org/our-program/upcoming-films/",
+   "base": 60,
+   "description": "Paweł Pawlikowski's 2026 drama: in 1949, Thomas Mann and his daughter Erika road-trip through a ruined Germany. World Spotlight series.",
+   "tags": [
+    "new-release",
+    "international"
+   ],
+   "source": "Gateway Film Center"
+  },
+  {
+   "id": "2026-11-13-victorian-psycho",
+   "area": "home",
+   "title": "Victorian Psycho",
+   "category": "film",
+   "start": "2026-11-13",
+   "allDay": true,
+   "venue": "Gateway Film Center",
+   "cost": "See site",
+   "free": null,
+   "url": "https://gatewayfilmcenter.org/our-program/upcoming-films/",
+   "base": 66,
+   "description": "Zachary Wigon's 2026 gothic thriller about an eccentric governess who arrives at a manor. Festival Perspectives series.",
+   "tags": [
+    "new-release",
+    "horror",
+    "indie"
+   ],
+   "source": "Gateway Film Center"
+  },
+  {
+   "id": "2026-11-13-orfeo",
+   "area": "home",
+   "title": "Orfeo",
+   "category": "film",
+   "start": "2026-11-13",
+   "allDay": true,
+   "venue": "Gateway Film Center",
+   "cost": "See site",
+   "free": null,
+   "url": "https://gatewayfilmcenter.org/our-program/upcoming-films/",
+   "base": 60,
+   "description": "Virgilio Villoresi's expressionist, stop-motion retelling of Orpheus and Eurydice. World Spotlight series.",
+   "tags": [
+    "new-release",
+    "international",
+    "animation"
+   ],
+   "source": "Gateway Film Center"
+  },
+  {
+   "id": "2026-11-13-once-upon-a-time-in-harlem",
+   "area": "home",
+   "title": "Once Upon a Time in Harlem",
+   "category": "film",
+   "start": "2026-11-13",
+   "allDay": true,
+   "venue": "Gateway Film Center",
+   "cost": "See site",
+   "free": null,
+   "url": "https://gatewayfilmcenter.org/our-program/upcoming-films/",
+   "base": 58,
+   "description": "Documentary by William and David Greaves, built around a 1972 party with living Harlem Renaissance figures and finished 50 years later.",
+   "tags": [
+    "new-release",
+    "documentary"
+   ],
+   "source": "Gateway Film Center"
+  },
+  {
+   "id": "2026-11-16-the-mothman-prophecies-screening-mothman",
+   "area": "home",
+   "title": "The Mothman Prophecies screening + Mothman Museum Q&A",
+   "category": "film",
+   "start": "2026-11-16T18:00",
+   "end": "2026-11-16T21:30",
+   "venue": "Gateway Film Center",
+   "cost": "Free",
+   "free": true,
+   "url": "https://humanitiesinstitute.osu.edu/events/mothman-prophecies-film-screening",
+   "base": 74,
+   "description": "Free screening of The Mothman Prophecies, followed by a Q&A with curators from the Mothman Museum in Point Pleasant, WV. Marks 60 years since the first sightings. A Humanities on Tap meet-and-greet runs 6–6:45.",
+   "tags": [
+    "one-night",
+    "free",
+    "talk"
+   ],
+   "source": "OSU Humanities Institute"
+  },
+  {
+   "id": "2026-11-20-the-hunger-games-sunrise-on-the-reaping",
+   "area": "home",
+   "title": "The Hunger Games: Sunrise on the Reaping",
+   "category": "film",
+   "start": "2026-11-20",
+   "allDay": true,
+   "venue": "Gateway Film Center",
+   "cost": "See site",
+   "free": null,
+   "url": "https://gatewayfilmcenter.org/our-program/upcoming-films/",
+   "base": 66,
+   "description": "Francis Lawrence's prequel, set during the Second Quarter Quell. Opening day.",
+   "tags": [
+    "new-release"
+   ],
+   "source": "Gateway Film Center"
+  },
+  {
+   "id": "2026-11-25-paper-tiger",
+   "area": "home",
+   "title": "Paper Tiger",
+   "category": "film",
+   "start": "2026-11-25",
+   "allDay": true,
+   "venue": "Gateway Film Center",
+   "cost": "See site",
+   "free": null,
+   "url": "https://gatewayfilmcenter.org/our-program/upcoming-films/",
+   "base": 60,
+   "description": "James Gray's 2026 drama about two brothers who get tangled up with the Russian mafia. Festival Perspectives series.",
+   "tags": [
+    "new-release",
+    "indie"
+   ],
+   "source": "Gateway Film Center"
+  },
+  {
+   "id": "2026-11-17-bexley-library-trivia-at-the-drexel",
+   "area": "home",
+   "title": "Bexley Library Trivia at the Drexel",
+   "category": "community",
+   "start": "2026-11-17T19:00",
+   "venue": "Drexel Theatre",
+   "cost": "See site",
+   "free": null,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 62,
+   "description": "Trivia night for adults, hosted by Bexley Public Library at the Drexel Theatre.",
+   "tags": [
+    "trivia"
+   ],
+   "source": "Cringe.com"
+  },
+  {
+   "id": "2026-11-22-love-actually-in-concert",
+   "area": "home",
+   "title": "Love Actually in Concert",
+   "category": "film",
+   "start": "2026-11-22T14:00",
+   "venue": "Palace Theatre",
+   "cost": "See site",
+   "free": null,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 58,
+   "description": "Screening of the 2003 holiday rom-com with the score performed live.",
+   "tags": [
+    "holiday",
+    "live-music"
+   ],
+   "source": "Cringe.com"
+  },
+  {
+   "id": "2026-11-22-cinema-cabaret",
+   "area": "home",
+   "title": "Cinema Cabaret",
+   "category": "film",
+   "start": "2026-11-22",
+   "allDay": true,
+   "venue": "Spacebar",
+   "cost": "See site",
+   "free": null,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 58,
+   "description": "Spacebar's movie night paired with a drag show.",
+   "summary": "Time not listed yet.",
+   "tags": [
+    "drag",
+    "one-night"
+   ],
+   "source": "Cringe.com"
+  },
+  {
+   "id": "2026-11-04-wednesday-music-trivia-at-slammers",
+   "area": "home",
+   "title": "Wednesday Music Trivia at Slammers",
+   "category": "nightlife",
+   "start": "2026-11-04T19:00",
+   "end": "2026-11-04T21:00",
+   "venue": "Slammers",
+   "cost": "See site",
+   "free": null,
+   "url": "https://outxout.com/event/slamm-wedne-270dcc7a",
+   "base": 62,
+   "description": "Weekly music trivia at Slammers, Columbus's long-running lesbian bar.",
+   "summary": "Every Wednesday.",
+   "tags": [
+    "trivia",
+    "queer-women"
+   ],
+   "source": "Out x Out"
+  },
+  {
+   "id": "2026-11-06-pour-decisions-first-friday-dj-night",
+   "area": "home",
+   "title": "Pour Decisions: first-Friday DJ night",
+   "category": "nightlife",
+   "start": "2026-11-06T20:00",
+   "end": "2026-11-07T00:00",
+   "venue": "Slammers",
+   "cost": "See site",
+   "free": null,
+   "url": "https://outxout.com/event/slamm-pourd-c1ae28ec",
+   "base": 70,
+   "description": "A low-key monthly first-Friday party at Slammers with DJ ge0r_g1a.",
+   "tags": [
+    "dj",
+    "queer-women",
+    "dance-party"
+   ],
+   "source": "Out x Out"
+  },
+  {
+   "id": "2026-11-17-lez-dance",
+   "area": "home",
+   "title": "Lez Dance",
+   "category": "nightlife",
+   "start": "2026-11-17T21:00",
+   "end": "2026-11-18T01:00",
+   "venue": "Slammers",
+   "cost": "See site",
+   "free": null,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 74,
+   "description": "A dance night at Slammers, the downtown lesbian bar.",
+   "tags": [
+    "queer-women",
+    "dance-party"
+   ],
+   "source": "Cringe.com"
+  },
+  {
+   "id": "2026-11-18-stonewall-women-s-book-club",
+   "area": "home",
+   "title": "Stonewall Women's Book Club",
+   "category": "talk",
+   "start": "2026-11-18T18:30",
+   "end": "2026-11-18T20:30",
+   "venue": "Stonewall Columbus",
+   "cost": "See site",
+   "free": null,
+   "url": "https://stonewallcolumbus.org/calendar/week/2026-11-18/",
+   "base": 42,
+   "description": "Monthly book club that Stonewall describes as a primarily lesbian group with members from many backgrounds and ages.",
+   "tags": [
+    "queer-women",
+    "books"
+   ],
+   "source": "Stonewall Columbus"
+  },
+  {
+   "id": "2026-11-18-a-place-to-bury-strangers-adult",
+   "area": "home",
+   "title": "A Place to Bury Strangers, ADULT.",
+   "category": "music",
+   "start": "2026-11-18T19:00",
+   "venue": "Ace of Cups",
+   "cost": "See site",
+   "free": null,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 82,
+   "description": "NYC noise/post-punk band A Place to Bury Strangers with Detroit electro-darkwave duo ADULT.",
+   "tags": [
+    "post-punk",
+    "darkwave",
+    "indie-rock",
+    "live-music"
+   ],
+   "source": "Cringe.com"
+  },
+  {
+   "id": "2026-11-18-chat-pile-soul-glo-shallowater",
+   "area": "home",
+   "title": "Chat Pile, Soul Glo, Shallowater",
+   "category": "music",
+   "start": "2026-11-18T20:00",
+   "venue": "Newport Music Hall",
+   "cost": "See site",
+   "free": null,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 62,
+   "description": "Oklahoma noise-rock band Chat Pile on its Who Loves The Sun tour, with Philly hardcore band Soul Glo.",
+   "tags": [
+    "noise-rock",
+    "punk",
+    "live-music"
+   ],
+   "source": "Cringe.com"
+  },
+  {
+   "id": "2026-11-18-lindy-basics-beginner-swing-class",
+   "area": "home",
+   "title": "Lindy Basics (beginner swing class)",
+   "category": "community",
+   "start": "2026-11-18T18:15",
+   "venue": "Tap Shop",
+   "cost": "See site",
+   "free": null,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 52,
+   "description": "Beginner Lindy Hop class, followed at 7:30 by 'Beyond the Basics: The Big Apple'.",
+   "tags": [
+    "class",
+    "beginner",
+    "dance"
+   ],
+   "source": "Cringe.com"
+  },
+  {
+   "id": "2026-11-18-steve-poltz",
+   "area": "home",
+   "title": "Steve Poltz",
+   "category": "music",
+   "start": "2026-11-18T19:30",
+   "venue": "Natalie's Grandview",
+   "cost": "See site",
+   "free": null,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 52,
+   "description": "Folk singer-songwriter and storyteller Steve Poltz in Natalie's music hall in Grandview.",
+   "tags": [
+    "folk",
+    "live-music",
+    "grandview"
+   ],
+   "source": "Cringe.com"
+  },
+  {
+   "id": "2026-11-19-wax-cafe-all-vinyl-house-night",
+   "area": "home",
+   "title": "Wax Cafe: all-vinyl house night",
+   "category": "nightlife",
+   "start": "2026-11-19T20:00",
+   "venue": "Cafe Bourbon Street",
+   "cost": "See site",
+   "free": null,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 64,
+   "description": "All-vinyl house music night with Chris Mckee and friends.",
+   "tags": [
+    "house",
+    "dj",
+    "dance-party"
+   ],
+   "source": "Cringe.com"
+  },
+  {
+   "id": "2026-11-19-ha-ha-tonka",
+   "area": "home",
+   "title": "Ha Ha Tonka",
+   "category": "music",
+   "start": "2026-11-19T19:00",
+   "venue": "Rumba Cafe",
+   "cost": "$26",
+   "free": false,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 56,
+   "description": "Ozark indie-folk-rock band from Missouri.",
+   "tags": [
+    "indie-rock",
+    "folk",
+    "live-music"
+   ],
+   "source": "Cringe.com"
+  },
+  {
+   "id": "2026-11-19-sir-woman-november-tour",
+   "area": "home",
+   "title": "Sir Woman: November Tour",
+   "category": "music",
+   "start": "2026-11-19",
+   "allDay": true,
+   "venue": "A&R Music Bar",
+   "cost": "See site",
+   "free": null,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 58,
+   "description": "Kelsey Wilson's soul-pop project Sir Woman.",
+   "summary": "Time not listed yet.",
+   "tags": [
+    "soul",
+    "live-music"
+   ],
+   "source": "Cringe.com"
+  },
+  {
+   "id": "2026-11-19-porcelain-zastava-teeth-marks",
+   "area": "home",
+   "title": "Porcelain, Zastava, Teeth Marks",
+   "category": "music",
+   "start": "2026-11-19T19:00",
+   "venue": "Spacebar",
+   "cost": "See site",
+   "free": null,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 52,
+   "description": "Porcelain on the Minor Victories Tour, with Zastava and Teeth Marks.",
+   "tags": [
+    "indie-rock",
+    "live-music"
+   ],
+   "source": "Cringe.com"
+  },
+  {
+   "id": "2026-11-19-hairspray",
+   "area": "home",
+   "title": "Hairspray",
+   "category": "theater",
+   "start": "2026-11-19T19:30",
+   "until": "2026-11-22",
+   "venue": "Garden Theater",
+   "cost": "Preview PWYW; see site",
+   "free": null,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 50,
+   "description": "The musical Hairspray at the Garden Theater. The Nov 19 preview is pay-what-you-want; matinees and evening shows run through the weekend.",
+   "tags": [
+    "musical"
+   ],
+   "source": "Cringe.com"
+  },
+  {
+   "id": "2026-11-20-wildlights-at-the-columbus-zoo",
+   "area": "home",
+   "title": "Wildlights at the Columbus Zoo",
+   "category": "festival",
+   "start": "2026-11-20",
+   "allDay": true,
+   "until": "2027-01-03",
+   "venue": "Columbus Zoo and Aquarium",
+   "cost": "Included with zoo admission",
+   "free": false,
+   "url": "https://www.columbuszoo.org/wildlights",
+   "base": 74,
+   "description": "The zoo's holiday lights: LED light displays, animated musical light shows and seasonal activities. Arrive early to see the animals before they settle in. Opening night.",
+   "summary": "Sun–Thu noon–9pm; Fri–Sat noon–10pm.",
+   "tags": [
+    "family",
+    "holiday",
+    "lights"
+   ],
+   "source": "Columbus Zoo"
+  },
+  {
+   "id": "2026-11-20-aaron-lee-tasjan-madeleine-kelson",
+   "area": "home",
+   "title": "Aaron Lee Tasjan, Madeleine Kelson",
+   "category": "music",
+   "start": "2026-11-20T20:00",
+   "venue": "Rumba Cafe",
+   "cost": "$32",
+   "free": false,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 62,
+   "description": "Nashville singer-songwriter Aaron Lee Tasjan, known for glam-tinged power-pop and rock.",
+   "summary": "Doors 7pm.",
+   "tags": [
+    "indie-rock",
+    "live-music"
+   ],
+   "source": "Cringe.com"
+  },
+  {
+   "id": "2026-11-21-schism-alt-dance-party",
+   "area": "home",
+   "title": "Schism: alt dance party",
+   "category": "nightlife",
+   "start": "2026-11-21T22:00",
+   "venue": "Ace of Cups",
+   "cost": "See site",
+   "free": null,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 82,
+   "description": "Ace of Cups' alt/darkwave dance night.",
+   "tags": [
+    "goth",
+    "darkwave",
+    "dance-party"
+   ],
+   "source": "Cringe.com"
+  },
+  {
+   "id": "2026-11-21-orbit-dj-night-inner-g-mother",
+   "area": "home",
+   "title": "Orbit DJ Night: Inner-G, MOTHER",
+   "category": "nightlife",
+   "start": "2026-11-21T21:00",
+   "venue": "Spacebar",
+   "cost": "See site",
+   "free": null,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 56,
+   "description": "DJ night with Inner-G and MOTHER.",
+   "tags": [
+    "dj",
+    "dance-party"
+   ],
+   "source": "Cringe.com"
+  },
+  {
+   "id": "2026-11-21-leyla-mccalla-palehound",
+   "area": "home",
+   "title": "Leyla McCalla, Palehound",
+   "category": "music",
+   "start": "2026-11-21T19:00",
+   "venue": "First Congregational Church",
+   "cost": "$35.44–45.69",
+   "free": false,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 70,
+   "description": "Haitian-American singer and cellist Leyla McCalla (formerly of Carolina Chocolate Drops) with Boston indie-rock band Palehound.",
+   "tags": [
+    "indie-rock",
+    "folk",
+    "live-music"
+   ],
+   "source": "Cringe.com"
+  },
+  {
+   "id": "2026-11-21-ghostwoman-croaker",
+   "area": "home",
+   "title": "Ghostwoman, Croaker",
+   "category": "music",
+   "start": "2026-11-21T19:00",
+   "venue": "Woodland's Tavern",
+   "cost": "$22.82",
+   "free": false,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 66,
+   "description": "Canadian psych-rock duo Ghostwoman.",
+   "tags": [
+    "psych-rock",
+    "indie-rock",
+    "live-music"
+   ],
+   "source": "Cringe.com"
+  },
+  {
+   "id": "2026-11-21-surfrajettes-natalie-s-anniversary-show",
+   "area": "home",
+   "title": "Surfrajettes: Natalie's anniversary show",
+   "category": "music",
+   "start": "2026-11-21T20:00",
+   "venue": "Natalie's Grandview",
+   "cost": "See site",
+   "free": null,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 66,
+   "description": "Toronto instrumental surf-rock band the Surfrajettes play Natalie's anniversary show, with Kyle Eldridge.",
+   "tags": [
+    "surf-rock",
+    "live-music",
+    "grandview"
+   ],
+   "source": "Cringe.com"
+  },
+  {
+   "id": "2026-11-21-free-tvs-play-the-cranberries",
+   "area": "home",
+   "title": "Free TVs play The Cranberries",
+   "category": "music",
+   "start": "2026-11-21T21:00",
+   "venue": "Rambling House Music Bar",
+   "cost": "See site",
+   "free": null,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 58,
+   "description": "Columbus band Free TVs play a set of Cranberries songs, with Uncertainty Principle.",
+   "summary": "Doors 8pm.",
+   "tags": [
+    "tribute",
+    "live-music",
+    "theme-night"
+   ],
+   "source": "Cringe.com"
+  },
+  {
+   "id": "2026-11-21-13th-annual-tribute-to-the-last-waltz",
+   "area": "home",
+   "title": "13th Annual Tribute to The Last Waltz",
+   "category": "music",
+   "start": "2026-11-21T19:00",
+   "venue": "Newport Music Hall",
+   "cost": "See site",
+   "free": null,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 56,
+   "description": "Columbus musicians recreate The Band's 1976 farewell concert, The Last Waltz.",
+   "tags": [
+    "tribute",
+    "live-music"
+   ],
+   "source": "Cringe.com"
+  },
+  {
+   "id": "2026-11-21-winterfest-columbus",
+   "area": "home",
+   "title": "WinterFest Columbus",
+   "category": "festival",
+   "start": "2026-11-21T12:00",
+   "venue": "Dorrian Green",
+   "cost": "Free",
+   "free": true,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 56,
+   "description": "Free holiday festival on the Scioto Mile.",
+   "tags": [
+    "holiday",
+    "free"
+   ],
+   "source": "Cringe.com"
+  },
+  {
+   "id": "2026-11-22-schitt-s-creek-tribute-drag-brunch",
+   "area": "home",
+   "title": "Schitt's Creek Tribute Drag Brunch",
+   "category": "food",
+   "start": "2026-11-22T14:00",
+   "venue": "Funny Bone Comedy Club",
+   "cost": "See site",
+   "free": null,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 56,
+   "description": "Schitt's Creek-themed drag brunch.",
+   "tags": [
+    "brunch",
+    "drag",
+    "theme-night"
+   ],
+   "source": "Cringe.com"
+  },
+  {
+   "id": "2026-11-22-mustard-plug-city-sidestep",
+   "area": "home",
+   "title": "Mustard Plug, City Sidestep",
+   "category": "music",
+   "start": "2026-11-22T17:00",
+   "venue": "Rumba Cafe",
+   "cost": "$20",
+   "free": false,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 54,
+   "description": "Michigan ska-punk veterans Mustard Plug.",
+   "tags": [
+    "ska",
+    "punk",
+    "live-music"
+   ],
+   "source": "Cringe.com"
+  },
+  {
+   "id": "2026-11-22-chrissy-chlapecka",
+   "area": "home",
+   "title": "Chrissy Chlapecka",
+   "category": "music",
+   "start": "2026-11-22T18:30",
+   "venue": "Woodland's Tavern",
+   "cost": "$31.04",
+   "free": false,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 50,
+   "description": "Pop singer Chrissy Chlapecka.",
+   "tags": [
+    "pop",
+    "live-music"
+   ],
+   "source": "Cringe.com"
+  },
+  {
+   "id": "2026-11-07-short-north-gallery-hop",
+   "area": "home",
+   "title": "Short North Gallery Hop",
+   "category": "museum",
+   "start": "2026-11-07T16:00",
+   "end": "2026-11-07T20:00",
+   "venue": "Short North Arts District",
+   "map": false,
+   "cost": "Free",
+   "free": true,
+   "url": "https://shortnorth.org/?p=51992",
+   "base": 72,
+   "description": "Monthly first-Saturday art walk: galleries, shops and restaurants show Ohio and national artists, with street performers and vendors along High Street.",
+   "summary": "Ohio State home game the same day may make it busier.",
+   "tags": [
+    "art",
+    "gallery",
+    "free"
+   ],
+   "source": "Short North Arts District"
+  },
+  {
+   "id": "2026-11-07-worthington-indoor-farmers-market",
+   "area": "home",
+   "title": "Worthington Indoor Farmers Market",
+   "category": "food",
+   "start": "2026-11-07T09:00",
+   "end": "2026-11-07T12:00",
+   "until": "2026-12-19",
+   "venue": "The Shops at Worthington Place",
+   "cost": "Free entry",
+   "free": true,
+   "url": "https://www.columbusonthecheap.com/indoor-farmers-markets-in-columbus",
+   "base": 62,
+   "description": "The Worthington Farmers Market's winter season, held indoors on Saturday mornings.",
+   "summary": "Saturdays 9am–noon, November through April. 2026 start date not confirmed; check before going.",
+   "tags": [
+    "farmers-market",
+    "market"
+   ],
+   "source": "Worthington Farmers Market"
+  },
+  {
+   "id": "2026-11-22-dublin-bridge-park-holiday-market",
+   "area": "home",
+   "title": "Dublin Bridge Park Holiday Market",
+   "category": "food",
+   "start": "2026-11-22",
+   "allDay": true,
+   "venue": "The Exchange at Bridge Park",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.thecraftmap.com/fairs/ohio/columbus",
+   "base": 62,
+   "description": "Holiday makers market in Bridge Park, Dublin, with about 90 makers. Ticketed early entry, then free later in the day.",
+   "tags": [
+    "market",
+    "holiday",
+    "dublin"
+   ],
+   "source": "The Craft Map"
+  },
+  {
+   "id": "2026-12-05-clintonville-holiday-farmers-market",
+   "area": "home",
+   "title": "Clintonville Holiday Farmers Market",
+   "category": "food",
+   "start": "2026-12-05T09:00",
+   "end": "2026-12-05T13:00",
+   "venue": "North Broadway United Methodist Church",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.columbusonthecheap.com/indoor-farmers-markets-in-columbus",
+   "base": 64,
+   "description": "The Clintonville Farmers Market moves indoors for three holiday Saturdays: farm food plus locally made crafts.",
+   "summary": "Also Dec 12 and Dec 19.",
+   "tags": [
+    "farmers-market",
+    "market",
+    "holiday"
+   ],
+   "source": "Columbus on the Cheap"
+  },
+  {
+   "id": "2026-12-06-village-lights-holiday-market",
+   "area": "home",
+   "title": "Village Lights Holiday Market",
+   "category": "food",
+   "start": "2026-12-06T15:00",
+   "end": "2026-12-06T20:00",
+   "venue": "Schiller Community Center",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.fairsandfestivals.net/events/details/2026-village-lights-holiday-market",
+   "base": 68,
+   "description": "German Village holiday market with 100+ makers (art, craft, food), live music and a visit from Santa.",
+   "tags": [
+    "market",
+    "holiday",
+    "family"
+   ],
+   "source": "Fairs & Festivals"
   }
  ]
 }
