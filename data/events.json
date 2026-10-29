@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T15:00:00-04:00",
+ "updated": "2026-10-29T12:45:00-04:00",
  "events": [
   {
    "id": "2026-10-23-buzz-brew-coffee-beer-fest",
@@ -2573,6 +2573,116 @@
     "family"
    ],
    "source": "Fairs & Festivals"
+  },
+  {
+   "id": "2026-10-31-friko-something-worth-waiting-for-tour",
+   "area": "home",
+   "title": "Friko: Something Worth Waiting For Tour",
+   "category": "music",
+   "start": "2026-10-31T20:00",
+   "venue": "A&R Music Bar",
+   "cost": "See site",
+   "free": null,
+   "url": "https://cringe.com",
+   "base": 70,
+   "description": "Chicago indie rock band Friko on tour behind their album Where we've been, Where we go from here, at a Columbus club show.",
+   "tags": [
+    "indie rock",
+    "concert"
+   ],
+   "source": "Cringe"
+  },
+  {
+   "id": "2026-10-31-haunted-toy-shoppe",
+   "area": "home",
+   "title": "Haunted Toy Shoppe",
+   "category": "theater",
+   "start": "2026-10-31T14:00",
+   "venue": "Columbus Dance Theatre",
+   "cost": "$20 ($10 student)",
+   "free": false,
+   "url": "https://cringe.com",
+   "base": 55,
+   "description": "A Halloween-season dance theatre production with three afternoon performances; family friendly timing.",
+   "tags": [
+    "family",
+    "dance",
+    "halloween"
+   ],
+   "source": "Cringe"
+  },
+  {
+   "id": "2026-11-01-haunted-toy-shoppe",
+   "area": "home",
+   "title": "Haunted Toy Shoppe",
+   "category": "theater",
+   "start": "2026-11-01T14:00",
+   "venue": "Columbus Dance Theatre",
+   "cost": "$20 ($10 student)",
+   "free": false,
+   "url": "https://cringe.com",
+   "base": 50,
+   "description": "Sunday performances (2pm, 3:30pm, 5pm) of the Halloween-season dance theatre production.",
+   "tags": [
+    "family",
+    "dance",
+    "halloween"
+   ],
+   "source": "Cringe"
+  },
+  {
+   "id": "2026-11-01-teen-jesus-and-the-jean-teasers",
+   "area": "home",
+   "title": "Teen Jesus and the Jean Teasers",
+   "category": "music",
+   "start": "2026-11-01T18:00",
+   "venue": "Ace of Cups",
+   "cost": "$20",
+   "free": false,
+   "url": "https://cringe.com",
+   "base": 62,
+   "description": "Australian rock band Teen Jesus and the Jean Teasers play a Sunday-evening show.",
+   "tags": [
+    "indie rock",
+    "concert"
+   ],
+   "source": "Cringe"
+  },
+  {
+   "id": "2026-11-01-sunday-sessions-vol-4-spooky-sessions",
+   "area": "home",
+   "title": "Sunday Sessions Vol. 4: Spooky Sessions",
+   "category": "nightlife",
+   "start": "2026-11-01T18:00",
+   "venue": "Cure 614",
+   "cost": "Free",
+   "free": true,
+   "url": "https://cringe.com",
+   "base": 52,
+   "description": "Free Sunday evening spooky-themed music session, 6-10pm.",
+   "tags": [
+    "music",
+    "halloween"
+   ],
+   "source": "Cringe"
+  },
+  {
+   "id": "2026-11-01-lee-gantt",
+   "area": "home",
+   "title": "Lee Gantt",
+   "category": "music",
+   "start": "2026-11-01T11:30",
+   "venue": "Bristol Republic",
+   "cost": "See site",
+   "free": null,
+   "url": "https://cringe.com",
+   "base": 38,
+   "description": "Daytime live music at Bristol Republic, 11:30am-2:30pm.",
+   "tags": [
+    "live music",
+    "brunch"
+   ],
+   "source": "Cringe"
   }
  ]
 }
