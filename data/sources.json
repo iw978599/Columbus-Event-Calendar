@@ -84,8 +84,8 @@
    },
    {
     "name": "The Oracle (Olde Towne East)",
-    "url": "https://www.yelp.com/biz/the-oracle-columbus-2",
-    "goodFor": "small vinyl/DJ bar at 1159 Oak St with no real website; events are posted on Facebook and picked up by Dead Souls of Columbus, not Songkick or Cringe"
+    "url": "https://calendar.google.com/calendar/ical/theoraclebar%40gmail.com/public/basic.ics",
+    "goodFor": "The Oracle's own public Google Calendar (iCal feed embedded on theoraclebar.com; the site itself blocks bots). DJ nights Fri/Sat 9 pm. Events cross midnight, so they look like two-day events: use only the START date/time, no end."
    },
    {
     "name": "Metro Parks events",

@@ -218,6 +218,7 @@ dialog::backdrop{background:var(--scrim)}
     <div class="legend" id="legend"></div>
     <label class="toggle"><input type="checkbox" id="freeOnly"> Free only</label>
     <select class="sel" id="audSel" aria-label="Kids or adult events"><option value="all">Kids &amp; adult</option><option value="kids">Kids only</option><option value="adults">Adults only</option></select>
+    <select class="sel" id="venueSel" aria-label="Venue" style="max-width:15em"></select>
     <span class="status" id="syncStatus"></span>
   </section>
   <section id="view"></section>
@@ -311,7 +312,7 @@ const S = {
   config: {},
   venues: {},
   view: "month", cursor: today(), area: store.get("ec.area", ""),
-  mode: "all", freeOnly: false, showHidden: false, aud: store.get("ec.aud", store.get("ec.kids", true) ? "all" : "adults"),
+  mode: "all", freeOnly: false, showHidden: false, venue: "", aud: store.get("ec.aud", store.get("ec.kids", true) ? "all" : "adults"),
   cats: Object.assign(Object.fromEntries(Object.keys(CATS).map(k=>[k,true])), store.get("ec.cats", {})),
   expanded: new Set()
 };
@@ -392,6 +393,7 @@ function visible(e){
   if(S.area !== "all" && e.area !== S.area) return false;
   if(!S.cats[e.category]) return false;
   if(S.freeOnly && e.free !== true) return false;
+  if(S.venue && e.venue !== S.venue) return false;
   if(S.aud === "adults" && isKids(e)) return false;
   if(S.aud === "kids" && !isKids(e)) return false;
   const st = status(e);
@@ -541,6 +543,16 @@ function renderLegend(){
     `<button class="lg" data-c="${k}" data-cat="${k}" aria-pressed="${!!S.cats[k]}"><i></i>${esc(c.label)}</button>`).join("")
     + `<span class="lg free" aria-hidden="true" style="cursor:default"><i></i>Free</span>`;
 }
+// venues with upcoming events in the current area, with counts
+function renderVenues(){
+  const t = key(today()), n = {};
+  S.events.filter(e => (S.area === "all" || e.area === S.area) && (e.until || e.start).slice(0,10) >= t)
+    .forEach(e => n[e.venue] = (n[e.venue] || 0) + 1);
+  if(S.venue && !n[S.venue]) S.venue = "";
+  $("#venueSel").innerHTML = `<option value="">All venues</option>` + Object.keys(n).sort((a,b) => a.localeCompare(b))
+    .map(v => `<option value="${esc(v)}">${esc(v)} (${n[v]})</option>`).join("");
+  $("#venueSel").value = S.venue;
+}
 function renderAreas(){
   const opts = [`<option value="all">All areas</option>`].concat(S.areas.map(a =>
     `<option value="${esc(a.id)}">${esc(a.name)}${a.from?` (${esc(a.from.slice(5))}–${esc(a.to.slice(5))})`:""}</option>`));
@@ -682,7 +694,8 @@ $("#prev").onclick = () => step(-1);
 $("#next").onclick = () => step(1);
 $("#todayBtn").onclick = () => { S.cursor = today(); render(); };
 $("#themeBtn").onclick = () => { const t = document.documentElement.getAttribute("data-theme") === "light" ? "dark" : "light"; applyTheme(t); store.set("ec.themeChoice", t); };
-$("#areaSel").onchange = e => { S.area = e.target.value; store.set("ec.area", S.area); render(); };
+$("#areaSel").onchange = e => { S.area = e.target.value; store.set("ec.area", S.area); renderVenues(); render(); };
+$("#venueSel").onchange = e => { S.venue = e.target.value; render(); };
 $("#modeSel").onchange = e => { S.mode = e.target.value; render(); };
 $("#personSel").onchange = e => { S.person = e.target.value; store.set("ec.person", S.person); renderPeople(); render(); toast(`Flagging as ${pname(S.person)}`); };
 function renderPeople(){
@@ -816,6 +829,7 @@ function readHash(){
   const u = S.updated ? new Date(S.updated) : null;
   $("#updated").textContent = [u ? `Updated ${MON[u.getMonth()]} ${u.getDate()}, ${u.toLocaleTimeString([], {hour:"numeric", minute:"2-digit"})}` : "", `${S.events.length} events`].filter(Boolean).join(" · ");
   renderAreas();
+  renderVenues();
   renderPeople();
   render();
   if(!S.events.length) $("#view").insertAdjacentHTML("afterbegin", `<p class="empty">No events yet — they arrive with the first scheduled run. See SETUP.md.</p>`);

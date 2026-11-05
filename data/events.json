@@ -5293,6 +5293,142 @@
     "game-night"
    ],
    "source": "Beers and Board Games Club"
+  },
+  {
+   "id": "2026-11-06-soundclash-ent-international-night",
+   "area": "home",
+   "title": "Soundclash Ent.: International Night",
+   "category": "nightlife",
+   "start": "2026-11-06T21:00",
+   "venue": "The Oracle",
+   "cost": "See site",
+   "free": null,
+   "url": "http://theoraclebar.com/",
+   "base": 62,
+   "description": "Soundclash Ent.: International Night at The Oracle, the small vinyl and DJ cocktail bar in Olde Towne East. Listed on the bar's own calendar.",
+   "summary": "Starts 9 pm and runs past midnight.",
+   "tags": [
+    "dj",
+    "dance-party",
+    "international"
+   ],
+   "source": "The Oracle calendar"
+  },
+  {
+   "id": "2026-11-13-buck-lands",
+   "area": "home",
+   "title": "Buck Lands",
+   "category": "nightlife",
+   "start": "2026-11-13T21:00",
+   "venue": "The Oracle",
+   "cost": "See site",
+   "free": null,
+   "url": "http://theoraclebar.com/",
+   "base": 58,
+   "description": "Buck Lands at The Oracle, the small vinyl and DJ cocktail bar in Olde Towne East. Listed on the bar's own calendar.",
+   "summary": "Starts 9 pm and runs past midnight.",
+   "tags": [
+    "dj",
+    "dance-party"
+   ],
+   "source": "The Oracle calendar"
+  },
+  {
+   "id": "2026-11-14-soundclash-entertainment-true-skillz",
+   "area": "home",
+   "title": "Soundclash Entertainment: True Skillz",
+   "category": "nightlife",
+   "start": "2026-11-14T21:00",
+   "venue": "The Oracle",
+   "cost": "See site",
+   "free": null,
+   "url": "http://theoraclebar.com/",
+   "base": 58,
+   "description": "Soundclash Entertainment: True Skillz at The Oracle, the small vinyl and DJ cocktail bar in Olde Towne East. Listed on the bar's own calendar.",
+   "summary": "Starts 9 pm and runs past midnight.",
+   "tags": [
+    "dj",
+    "dance-party"
+   ],
+   "source": "The Oracle calendar"
+  },
+  {
+   "id": "2026-11-20-dj-swift-lee",
+   "area": "home",
+   "title": "DJ Swift Lee",
+   "category": "nightlife",
+   "start": "2026-11-20T21:00",
+   "venue": "The Oracle",
+   "cost": "See site",
+   "free": null,
+   "url": "http://theoraclebar.com/",
+   "base": 58,
+   "description": "DJ Swift Lee at The Oracle, the small vinyl and DJ cocktail bar in Olde Towne East. Listed on the bar's own calendar.",
+   "summary": "Starts 9 pm and runs past midnight.",
+   "tags": [
+    "dj",
+    "dance-party"
+   ],
+   "source": "The Oracle calendar"
+  },
+  {
+   "id": "2026-11-21-candy-rain",
+   "area": "home",
+   "title": "Candy Rain",
+   "category": "nightlife",
+   "start": "2026-11-21T21:00",
+   "venue": "The Oracle",
+   "cost": "See site",
+   "free": null,
+   "url": "http://theoraclebar.com/",
+   "base": 60,
+   "description": "Candy Rain at The Oracle, the small vinyl and DJ cocktail bar in Olde Towne East. Listed on the bar's own calendar.",
+   "summary": "Starts 9 pm and runs past midnight.",
+   "tags": [
+    "dj",
+    "dance-party",
+    "theme-night"
+   ],
+   "source": "The Oracle calendar"
+  },
+  {
+   "id": "2026-11-27-voids-night-moves",
+   "area": "home",
+   "title": "Voids: Night Moves",
+   "category": "nightlife",
+   "start": "2026-11-27T21:00",
+   "venue": "The Oracle",
+   "cost": "See site",
+   "free": null,
+   "url": "http://theoraclebar.com/",
+   "base": 66,
+   "description": "Voids: Night Moves at The Oracle, the small vinyl and DJ cocktail bar in Olde Towne East. Listed on the bar's own calendar.",
+   "summary": "Starts 9 pm and runs past midnight.",
+   "tags": [
+    "dj",
+    "dance-party",
+    "darkwave"
+   ],
+   "source": "The Oracle calendar"
+  },
+  {
+   "id": "2026-11-28-soundclash-ent-freak-beat",
+   "area": "home",
+   "title": "Soundclash Ent.: Freak Beat",
+   "category": "nightlife",
+   "start": "2026-11-28T21:00",
+   "venue": "The Oracle",
+   "cost": "See site",
+   "free": null,
+   "url": "http://theoraclebar.com/",
+   "base": 62,
+   "description": "Soundclash Ent.: Freak Beat at The Oracle, the small vinyl and DJ cocktail bar in Olde Towne East. Listed on the bar's own calendar.",
+   "summary": "Starts 9 pm and runs past midnight.",
+   "tags": [
+    "dj",
+    "dance-party"
+   ],
+   "source": "The Oracle calendar"
   }
  ]
 }
