@@ -5089,6 +5089,210 @@
    "source": "Columbus on the Cheap",
    "summary": "Times vary by branch; check the library calendar for the closest one.",
    "map": false
+  },
+  {
+   "id": "2026-11-11-beers-and-board-games",
+   "area": "home",
+   "title": "Beers and Board Games",
+   "category": "community",
+   "start": "2026-11-11T17:30",
+   "end": "2026-11-11T21:00",
+   "venue": "Honest Friend Brewing",
+   "cost": "Free (donations welcome)",
+   "free": true,
+   "url": "https://beersandboardgames.com/meetups",
+   "base": 88,
+   "description": "Weekly meetup of the Beers and Board Games Club of Columbus, running since 2013: bring a game or borrow one from their big library, usually 25–40 people, all skill levels. Free; donations go to local nonprofits.",
+   "tags": [
+    "board-games",
+    "brewery",
+    "game-night"
+   ],
+   "source": "Beers and Board Games Club"
+  },
+  {
+   "id": "2026-11-18-beers-and-board-games",
+   "area": "home",
+   "title": "Beers and Board Games",
+   "category": "community",
+   "start": "2026-11-18T17:30",
+   "end": "2026-11-18T21:00",
+   "venue": "Olentangy River Brewing Company",
+   "cost": "Free (donations welcome)",
+   "free": true,
+   "url": "https://beersandboardgames.com/meetups",
+   "base": 88,
+   "description": "Weekly meetup of the Beers and Board Games Club of Columbus, running since 2013: bring a game or borrow one from their big library, usually 25–40 people, all skill levels. Free; donations go to local nonprofits.",
+   "tags": [
+    "board-games",
+    "brewery",
+    "game-night"
+   ],
+   "source": "Beers and Board Games Club"
+  },
+  {
+   "id": "2026-11-25-beers-and-board-games",
+   "area": "home",
+   "title": "Beers and Board Games",
+   "category": "community",
+   "start": "2026-11-25T17:30",
+   "end": "2026-11-25T21:00",
+   "venue": "Honest Friend Brewing",
+   "cost": "Free (donations welcome)",
+   "free": true,
+   "url": "https://beersandboardgames.com/meetups",
+   "base": 88,
+   "description": "Weekly meetup of the Beers and Board Games Club of Columbus, running since 2013: bring a game or borrow one from their big library, usually 25–40 people, all skill levels. Free; donations go to local nonprofits.",
+   "tags": [
+    "board-games",
+    "brewery",
+    "game-night"
+   ],
+   "source": "Beers and Board Games Club"
+  },
+  {
+   "id": "2026-12-02-beers-and-board-games",
+   "area": "home",
+   "title": "Beers and Board Games",
+   "category": "community",
+   "start": "2026-12-02T17:30",
+   "end": "2026-12-02T21:00",
+   "venue": "Combustion Brewery & Taproom Clintonville",
+   "cost": "Free (donations welcome)",
+   "free": true,
+   "url": "https://beersandboardgames.com/meetups",
+   "base": 88,
+   "description": "Weekly meetup of the Beers and Board Games Club of Columbus, running since 2013: bring a game or borrow one from their big library, usually 25–40 people, all skill levels. Free; donations go to local nonprofits.",
+   "tags": [
+    "board-games",
+    "brewery",
+    "game-night"
+   ],
+   "source": "Beers and Board Games Club"
+  },
+  {
+   "id": "2026-12-09-beers-and-board-games",
+   "area": "home",
+   "title": "Beers and Board Games",
+   "category": "community",
+   "start": "2026-12-09T17:30",
+   "end": "2026-12-09T21:00",
+   "venue": "Honest Friend Brewing",
+   "cost": "Free (donations welcome)",
+   "free": true,
+   "url": "https://beersandboardgames.com/meetups",
+   "base": 88,
+   "description": "Weekly meetup of the Beers and Board Games Club of Columbus, running since 2013: bring a game or borrow one from their big library, usually 25–40 people, all skill levels. Free; donations go to local nonprofits.",
+   "tags": [
+    "board-games",
+    "brewery",
+    "game-night"
+   ],
+   "source": "Beers and Board Games Club"
+  },
+  {
+   "id": "2026-12-16-beers-and-board-games",
+   "area": "home",
+   "title": "Beers and Board Games",
+   "category": "community",
+   "start": "2026-12-16T17:30",
+   "end": "2026-12-16T21:00",
+   "venue": "Combustion Brewery & Taproom Clintonville",
+   "cost": "Free (donations welcome)",
+   "free": true,
+   "url": "https://beersandboardgames.com/meetups",
+   "base": 88,
+   "description": "Weekly meetup of the Beers and Board Games Club of Columbus, running since 2013: bring a game or borrow one from their big library, usually 25–40 people, all skill levels. Free; donations go to local nonprofits.",
+   "tags": [
+    "board-games",
+    "brewery",
+    "game-night"
+   ],
+   "source": "Beers and Board Games Club"
+  },
+  {
+   "id": "2026-12-23-beers-and-board-games",
+   "area": "home",
+   "title": "Beers and Board Games",
+   "category": "community",
+   "start": "2026-12-23T17:30",
+   "end": "2026-12-23T21:00",
+   "venue": "Olentangy River Brewing Company",
+   "cost": "Free (donations welcome)",
+   "free": true,
+   "url": "https://beersandboardgames.com/meetups",
+   "base": 88,
+   "description": "Weekly meetup of the Beers and Board Games Club of Columbus, running since 2013: bring a game or borrow one from their big library, usually 25–40 people, all skill levels. Free; donations go to local nonprofits.",
+   "tags": [
+    "board-games",
+    "brewery",
+    "game-night"
+   ],
+   "source": "Beers and Board Games Club"
+  },
+  {
+   "id": "2026-12-30-beers-and-board-games",
+   "area": "home",
+   "title": "Beers and Board Games",
+   "category": "community",
+   "start": "2026-12-30T17:30",
+   "end": "2026-12-30T21:00",
+   "venue": "Honest Friend Brewing",
+   "cost": "Free (donations welcome)",
+   "free": true,
+   "url": "https://beersandboardgames.com/meetups",
+   "base": 88,
+   "description": "Weekly meetup of the Beers and Board Games Club of Columbus, running since 2013: bring a game or borrow one from their big library, usually 25–40 people, all skill levels. Free; donations go to local nonprofits.",
+   "tags": [
+    "board-games",
+    "brewery",
+    "game-night"
+   ],
+   "source": "Beers and Board Games Club"
+  },
+  {
+   "id": "2026-11-07-24-hour-board-game-marathon",
+   "area": "home",
+   "title": "24 Hour Board Game Marathon for Nationwide Children's",
+   "category": "community",
+   "start": "2026-11-07T11:00",
+   "end": "2026-11-08T11:00",
+   "until": "2026-11-08",
+   "venue": "Olentangy River Brewing Company",
+   "cost": "$20 (to Nationwide Children's Hospital)",
+   "free": false,
+   "url": "https://www.columbusonthecheap.com/beers-and-board-games-fundraiser/",
+   "base": 90,
+   "description": "The Beers and Board Games Club's annual charity marathon: 24 hours of hundreds of new and classic games, a silent auction, a meta game and rotating food trucks, with beer and coffee from the brewery. Drop in for a few hours or stay all night (nap area: bring a pillow).",
+   "summary": "Sat 11 am to Sun 11 am. Cash or Venmo preferred.",
+   "tags": [
+    "board-games",
+    "brewery",
+    "charity",
+    "game-night"
+   ],
+   "source": "Beers and Board Games Club"
+  },
+  {
+   "id": "2026-12-13-beers-and-board-games-white-elephant",
+   "area": "home",
+   "title": "Beers and Board Games: White Elephant gift exchange",
+   "category": "community",
+   "start": "2026-12-13T13:00",
+   "end": "2026-12-13T17:00",
+   "venue": "Olentangy River Brewing Company",
+   "cost": "See site",
+   "free": null,
+   "url": "https://beersandboardgames.com/meetups",
+   "base": 86,
+   "description": "The club's annual white elephant game swap and holiday game afternoon. Bring a wrapped game to trade.",
+   "tags": [
+    "board-games",
+    "brewery",
+    "holiday",
+    "game-night"
+   ],
+   "source": "Beers and Board Games Club"
   }
  ]
 }
