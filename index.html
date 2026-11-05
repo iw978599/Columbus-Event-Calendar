@@ -217,7 +217,7 @@ dialog::backdrop{background:var(--scrim)}
     </select>
     <div class="legend" id="legend"></div>
     <label class="toggle"><input type="checkbox" id="freeOnly"> Free only</label>
-    <label class="toggle" title="Show kid-friendly and family events"><input type="checkbox" id="kidsOn"> Kids events</label>
+    <select class="sel" id="audSel" aria-label="Kids or adult events"><option value="all">Kids &amp; adult</option><option value="kids">Kids only</option><option value="adults">Adults only</option></select>
     <span class="status" id="syncStatus"></span>
   </section>
   <section id="view"></section>
@@ -311,7 +311,7 @@ const S = {
   config: {},
   venues: {},
   view: "month", cursor: today(), area: store.get("ec.area", ""),
-  mode: "all", freeOnly: false, showHidden: false, kids: store.get("ec.kids", true),
+  mode: "all", freeOnly: false, showHidden: false, aud: store.get("ec.aud", store.get("ec.kids", true) ? "all" : "adults"),
   cats: Object.assign(Object.fromEntries(Object.keys(CATS).map(k=>[k,true])), store.get("ec.cats", {})),
   expanded: new Set()
 };
@@ -392,7 +392,8 @@ function visible(e){
   if(S.area !== "all" && e.area !== S.area) return false;
   if(!S.cats[e.category]) return false;
   if(S.freeOnly && e.free !== true) return false;
-  if(!S.kids && isKids(e)) return false;
+  if(S.aud === "adults" && isKids(e)) return false;
+  if(S.aud === "kids" && !isKids(e)) return false;
   const st = status(e);
   if(st === "not_interested" && !S.showHidden) return false;
   if(S.mode === "both" && fans(e).length < S.people.length) return false;
@@ -696,8 +697,8 @@ function renderPeople(){
   $("#modeSel").value = S.mode;
 }
 $("#freeOnly").onchange = e => { S.freeOnly = e.target.checked; render(); };
-$("#kidsOn").checked = S.kids;
-$("#kidsOn").onchange = e => { S.kids = e.target.checked; store.set("ec.kids", S.kids); render(); };
+$("#audSel").value = S.aud;
+$("#audSel").onchange = e => { S.aud = e.target.value; store.set("ec.aud", S.aud); render(); };
 $("#showHidden").onchange = e => { S.showHidden = e.target.checked; render(); };
 $("#settingsBtn").onclick = () => { renderTaste(S.person); $("#tokenIn").value = token(); $("#tokenState").textContent = token() ? "Token saved in this browser." : "No token saved — flags stay on this device."; $("#setDlg").showModal(); };
 $("#tokenForm").onsubmit = async ev => {
