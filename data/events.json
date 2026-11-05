@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T12:45:00-04:00",
+ "updated": "2026-11-05T11:43:38-05:00",
  "events": [
   {
    "id": "2026-10-23-buzz-brew-coffee-beer-fest",
@@ -2681,6 +2681,170 @@
    "tags": [
     "live music",
     "brunch"
+   ],
+   "source": "Cringe"
+  },
+  {
+   "id": "2026-11-06-yachtopia-live-band-yacht-rock-party",
+   "area": "home",
+   "title": "Yachtopia Live Band Yacht Rock Party",
+   "category": "music",
+   "start": "2026-11-06T21:00",
+   "venue": "Rumba Cafe",
+   "cost": "$15",
+   "free": false,
+   "url": "https://cringe.com",
+   "base": 66,
+   "description": "Live band yacht rock dance party at Rumba Cafe; doors at 8pm.",
+   "tags": [
+    "live music",
+    "dance night"
+   ],
+   "source": "Cringe"
+  },
+  {
+   "id": "2026-11-06-maybe-happy-ending",
+   "area": "home",
+   "title": "Maybe Happy Ending",
+   "category": "theater",
+   "start": "2026-11-06T19:30",
+   "venue": "Ohio Theatre",
+   "cost": "See site",
+   "free": null,
+   "url": "https://cringe.com",
+   "base": 55,
+   "description": "Touring Broadway musical at the Ohio Theatre.",
+   "tags": [
+    "theater",
+    "musical"
+   ],
+   "source": "Cringe"
+  },
+  {
+   "id": "2026-11-06-the-menzingers",
+   "area": "home",
+   "title": "The Menzingers",
+   "category": "music",
+   "start": "2026-11-06",
+   "venue": "Newport Music Hall",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.eventworld.com/columbus-oh/concerts/november",
+   "base": 74,
+   "description": "Punk/indie rock band at Newport Music Hall.",
+   "tags": [
+    "indie rock",
+    "live music"
+   ],
+   "source": "EventWorld",
+   "allDay": true,
+   "summary": "Showtime not confirmed; check the venue."
+  },
+  {
+   "id": "2026-11-07-ramonesathon-xiv",
+   "area": "home",
+   "title": "Ramonesathon XIV",
+   "category": "music",
+   "start": "2026-11-07T20:00",
+   "venue": "Ace of Cups",
+   "cost": "$15.52",
+   "free": false,
+   "url": "https://cringe.com",
+   "base": 70,
+   "description": "Annual local-band tribute night playing Ramones songs; 18+.",
+   "tags": [
+    "live music",
+    "punk"
+   ],
+   "source": "Cringe"
+  },
+  {
+   "id": "2026-11-07-donny-benet-otnes",
+   "area": "home",
+   "title": "Donny Benet & OTNES",
+   "category": "music",
+   "start": "2026-11-07T20:00",
+   "venue": "A&R Music Bar",
+   "cost": "See site",
+   "free": null,
+   "url": "https://cringe.com",
+   "base": 70,
+   "description": "Synth-pop/lounge-flavored show at A&R Music Bar; doors at 7pm.",
+   "tags": [
+    "indie",
+    "dance night",
+    "live music"
+   ],
+   "source": "Cringe"
+  },
+  {
+   "id": "2026-11-07-super-pop-party",
+   "area": "home",
+   "title": "Super Pop Party",
+   "category": "nightlife",
+   "start": "2026-11-07T20:00",
+   "venue": "Rambling House",
+   "cost": "$10",
+   "free": false,
+   "url": "https://cringe.com",
+   "base": 60,
+   "description": "Pop dance party at Rambling House, 8–11:30pm.",
+   "tags": [
+    "dance night"
+   ],
+   "source": "Cringe"
+  },
+  {
+   "id": "2026-11-07-universoul-circus",
+   "area": "home",
+   "title": "UniverSoul Circus",
+   "category": "community",
+   "start": "2026-11-07T12:00",
+   "venue": "Historic Crew Stadium",
+   "cost": "$25–62",
+   "free": false,
+   "url": "https://cringe.com",
+   "base": 58,
+   "description": "Touring one-ring circus with shows at noon, 3:30pm and 7:30pm (also Sunday).",
+   "tags": [
+    "family",
+    "circus"
+   ],
+   "source": "Cringe",
+   "summary": "Also Sun 11/8 at 12, 3 and 6:30pm."
+  },
+  {
+   "id": "2026-11-08-colin-macknight-organ",
+   "area": "home",
+   "title": "Colin MacKnight, organ",
+   "category": "music",
+   "start": "2026-11-08T16:00",
+   "venue": "First Congregational Church",
+   "cost": "Free (freewill offering)",
+   "free": true,
+   "url": "https://cringe.com",
+   "base": 48,
+   "description": "Organ recital, 4–5:30pm.",
+   "tags": [
+    "classical",
+    "free"
+   ],
+   "source": "Cringe"
+  },
+  {
+   "id": "2026-11-06-jordan-klepper",
+   "area": "home",
+   "title": "Jordan Klepper",
+   "category": "comedy",
+   "start": "2026-11-06T19:30",
+   "venue": "Mershon Auditorium",
+   "cost": "See site",
+   "free": null,
+   "url": "https://cringe.com",
+   "base": 52,
+   "description": "Stand-up from the Daily Show correspondent.",
+   "tags": [
+    "comedy"
    ],
    "source": "Cringe"
   }
