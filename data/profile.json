@@ -1,22 +1,13 @@
 {
  "about": "Taste notes the agent uses to score events (0-100). Top-level likes/lessLikely are Ian (first person); Emily is under people.emily. Shared household likes appear in both. Flags on the calendar are learned on top of this.",
  "family": {
-  "rule": "On family days, actively include family-friendly / kid-friendly events (kids-only programming is OK) alongside the usual adult events. On other days, skip kids-only programming.",
-  "weekdays": [
-   "Wednesday",
-   "Thursday",
-   "Friday"
-  ],
-  "alternatingSaturdays": {
-   "first": "2026-10-31",
-   "everyWeeks": 2,
-   "note": "Family Saturdays are 2026-10-31 and every 14 days after (11/14, 11/28, 12/12, ...). The Saturdays in between are not family days."
-  },
+  "rule": "Include family-friendly / kid-friendly events EVERY day of the week (kids-only programming is OK) alongside the usual adult events. Tag every one of them \"family\" so the calendar's Kids events toggle can hide or show them.",
   "kidsAges": [
    4,
    10
   ],
-  "ageNote": "Kids are 4 and 10. Prefer events that work for both ages together (zoo, COSI, parks, festivals, family concerts, library programs); toddler-only or teen-only events score lower."
+  "ageNote": "Kids are 4 and 10. Prefer events that work for both ages together (zoo, COSI, parks, festivals, family concerts, library programs); toddler-only or teen-only events score lower.",
+  "sportsNote": "The 10-year-old daughter is interested in women's sports: Columbus Fury (pro volleyball), Ohio State women's basketball, volleyball, hockey and soccer, and other women's games in reach. Tag these family + womens-sports."
  },
  "likes": [
   "Board games: game nights, game cafes, tabletop meetups and conventions",
@@ -26,7 +17,8 @@
   "Movies: new releases, indie and repertory screenings, special one-night showings",
   "Farmers markets",
   "Other markets: makers, craft, flea, holiday and night markets",
-  "Brewery events: trivia, live music, release parties, food trucks, festivals"
+  "Brewery events: trivia, live music, release parties, food trucks, festivals",
+  "Sports: Cleveland Browns (NFL), Cleveland Cavaliers (NBA), Cincinnati Reds (MLB) and Columbus Crew (MLS) — games, plus Columbus watch parties and team events"
  ],
  "lessLikely": [
   "Singles / speed-dating / dating-themed events",
@@ -60,7 +52,7 @@
   }
  },
  "learned": {
-  "updated": "2026-11-05T16:43",
+  "updated": "2026-11-05T14:28",
   "ian": {
    "category": {},
    "venue": {},

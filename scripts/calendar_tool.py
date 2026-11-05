@@ -28,7 +28,7 @@ CATS = {
     "music": ("Concerts", "#c4701f"), "film": ("Film", "#3b6fc0"), "museum": ("Museums & art", "#157f78"),
     "theater": ("Theater & dance", "#b8432c"), "comedy": ("Comedy", "#a88a12"), "festival": ("Festivals", "#b0447f"),
     "talk": ("Talks & books", "#6f7e22"), "nightlife": ("Nightlife", "#7a4fa3"), "food": ("Food & markets", "#94683a"),
-    "community": ("Tours & community", "#3f7d3c"),
+    "community": ("Tours & community", "#3f7d3c"), "sports": ("Sports", "#53687a"),
 }
 RUN_DAYS = 7
 REQUIRED = ["id", "area", "title", "category", "start", "venue", "url", "base"]

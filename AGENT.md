@@ -45,7 +45,8 @@ Each time a source proves useful, add it to `data/sources.json` under its area (
 Rules:
 - Never invent a date, time or price. If cost is unknown, write `"See site"` and `free: null`.
 - Skip civic meetings, support groups, job fairs and generic bar crawls unless the profile says otherwise.
-- **Family days:** follow `profile.json → family`. On family days (the listed weekdays, plus the alternating Saturdays counted every 14 days from `first`), actively research family-friendly and kid-friendly events (kids-only programming is fine) and tag them `family`. On all other days, skip kids-only programming.
+- **Kids events:** follow `profile.json → family`. Research family-friendly and kid-friendly events for **every day of the week** (kids-only programming is fine) and tag every one of them `family`. The calendar has a **Kids events** toggle that hides or shows events tagged `family` (or `kids`), so the tag must be on every kid-oriented event and on no adult-only event.
+- **Sports:** use category `sports` for games and watch parties. Follow the teams in `profile.json → likes` and `people.<id>.likes` (Browns, Cavaliers, Reds, Crew) and women's sports for the kids (`family.sportsNote`): add their home and away games in the window (note the drive in `summary` for out-of-town home games, and that away games are TV/watch-party only), plus Columbus watch parties and team events when listed. Set `"team"` on each sports event so it shows in that team's colors: `browns`, `cavs`, `reds`, `crew`, `buckeyes`, `bluejackets`, `clippers` (add new ones to `TEAMS` in `index.html`). For games between two listed teams, use the local (Columbus) team, or the team the household follows.
 - Prefer the venue's own page for `url`.
 - Respect site blocks: if a fetch is refused, use another source; never route around a block, paywall or login.
 
@@ -57,7 +58,7 @@ Each event in `data/events.json` → `events[]`:
   "id": "2026-10-24-doors-open-weekend",           // YYYY-MM-DD + slug of title, unique
   "area": "home",                                   // id from areas.json
   "title": "Doors Open Weekend",
-  "category": "community",                          // music | film | museum | theater | comedy | festival | talk | nightlife | food | community
+  "category": "community",                          // music | film | museum | theater | comedy | festival | talk | nightlife | food | community | sports
   "start": "2026-10-24T10:00",                      // local time at the event; date only + "allDay": true if no time
   "end": "2026-10-24T17:00",                        // optional
   "until": "2027-02-21",                            // optional, for multi-day runs (exhibitions, theater runs, festivals)
@@ -71,7 +72,8 @@ Each event in `data/events.json` → `events[]`:
   "description": "1–3 plain sentences on what the event is.",
   "summary": "Optional short practical note: extra dates, set times, sold out.",
   "tags": ["architecture", "history"],              // lower-case; reuse existing tags so learning carries over
-  "source": "City Magazine"
+  "source": "City Magazine",
+  "team": "crew"                                    // optional, sports only: team colors (see Sports below)
 }
 ```
 

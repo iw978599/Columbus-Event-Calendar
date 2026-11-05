@@ -66,7 +66,118 @@
     "name": "Short North Gallery Hop",
     "url": "https://shortnorth.org",
     "goodFor": "first-Saturday art walk"
+   },
+   {
+    "name": "Columbus Navigator monthly roundup",
+    "url": "https://www.columbusnavigator.com/things-to-do/",
+    "goodFor": "monthly 'things to do' roundup with exact dates and links (new edition each month, e.g. /things-to-do-this-month-columbus-november-2026/) plus weekend posts; strong on holiday lights, CAPA shows, sports"
+   },
+   {
+    "name": "Columbus on the Cheap events (by page)",
+    "url": "https://www.columbusonthecheap.com/events/view-all/",
+    "goodFor": "day-by-day listings ~5 days per page (/events/view-all/2/, /3/ ...). Best source for dated kids events every day: storytimes, workshops, Metro Parks, Santa, sensory-friendly; also markets and Studio 35 film deals. Skip the all-day 'deal roundup' entries"
+   },
+   {
+    "name": "Dead Souls of Columbus newsletter",
+    "url": "https://deadsoulsofcolumbus.substack.com/",
+    "goodFor": "weekly goth / darkwave / 80s / Britpop club nights, incl. The Oracle (Olde Towne East) and Spacebar. Best way to catch Oracle nights; also IG @cbusgoth"
+   },
+   {
+    "name": "The Oracle (Olde Towne East)",
+    "url": "https://www.yelp.com/biz/the-oracle-columbus-2",
+    "goodFor": "small vinyl/DJ bar at 1159 Oak St with no real website; events are posted on Facebook and picked up by Dead Souls of Columbus, not Songkick or Cringe"
+   },
+   {
+    "name": "Metro Parks events",
+    "url": "https://www.metroparks.net/events/",
+    "goodFor": "naturalist hikes, family nature programs, Slate Run farm days; also Program Search for more"
+   },
+   {
+    "name": "Columbus Zoo events",
+    "url": "https://www.columbuszoo.org/events",
+    "goodFor": "Wildlights, sensory-friendly nights, Brew Lights (21+), Santa"
+   },
+   {
+    "name": "Ohio State women's basketball schedule",
+    "url": "https://ohiostatebuckeyes.com/sports/womens-basketball/schedule/",
+    "goodFor": "home games at the Schottenstein Center (daughter likes women's sports). ABC6 publishes the full home list"
+   },
+   {
+    "name": "Ohio State women's sports (volleyball, hockey, soccer)",
+    "url": "https://ohiostatebuckeyes.com/",
+    "goodFor": "more women's sports; OSU women's hockey is a national power (Nov-Mar)"
+   },
+   {
+    "name": "Columbus Fury (pro volleyball)",
+    "url": "https://provolleyball.com/",
+    "goodFor": "women's pro volleyball at Nationwide Arena, season Jan-Apr"
+   },
+   {
+    "name": "Cleveland Browns schedule",
+    "url": "https://www.clevelandbrowns.com/schedule/",
+    "goodFor": "Ian's team; home games at Huntington Bank Field"
+   },
+   {
+    "name": "Cleveland Cavaliers schedule (ESPN)",
+    "url": "https://www.espn.com/nba/team/schedule/_/name/cle",
+    "goodFor": "Ian's team; home and away with TV"
+   },
+   {
+    "name": "Cincinnati Reds schedule",
+    "url": "https://www.mlb.com/reds/schedule",
+    "goodFor": "Ian's team; season late Mar-Sep. Redsfest returned Jan 2026 (check for next one)"
+   },
+   {
+    "name": "Columbus Crew schedule",
+    "url": "https://www.columbuscrew.com/schedule",
+    "goodFor": "Ian's team; Lower.com Field; playoffs Nov-Dec; Crew posts watch parties at The Pub"
+   },
+   {
+    "name": "Browns Backers bars in Columbus",
+    "url": "https://www.columbussports.org/blog/post/where-to-watch-your-favorite-nfl-teams-in-columbus/",
+    "goodFor": "watch-party bars, e.g. Grandview Browns Backers at Meister's Bar, Buckeye Browns Backers at U.A. Pub"
+   },
+   {
+    "name": "Christkindlmarkt Dublin",
+    "url": "https://christkindlmarktdublin.com/",
+    "goodFor": "Dublin's outdoor Christmas market (late Nov - Dec 24)"
+   },
+   {
+    "name": "Bridge Park / North Market Bridge Park (Dublin)",
+    "url": "https://www.columbusonthecheap.com/bridge-park-dublin/",
+    "goodFor": "Dublin markets, Market Bar Bingo, Santa at the Park"
+   },
+   {
+    "name": "Experience Columbus events",
+    "url": "https://www.experiencecolumbus.com/events/",
+    "goodFor": "tourism board calendar: theater, concerts, sports, festivals"
+   },
+   {
+    "name": "CAPA productions",
+    "url": "https://www.capa.com/",
+    "goodFor": "Palace / Ohio / Southern Theatres: live-score films, touring shows, holiday shows"
+   },
+   {
+    "name": "City of Grandview Heights events",
+    "url": "https://www.grandviewheights.net/new-events",
+    "goodFor": "Grandview community events (Holiday in the Heights)"
+   },
+   {
+    "name": "City of Upper Arlington calendar",
+    "url": "https://www.upperarlingtonoh.gov/calendar.aspx",
+    "goodFor": "UA events (Winter Festival at Mallway Park, early Dec)"
+   },
+   {
+    "name": "Worthington (Columbus on the Cheap guide)",
+    "url": "https://columbusonthecheap.com/worthington-ohio",
+    "goodFor": "Worthington night markets, open house, community center family nights"
    }
   ]
- }
+ },
+ "blocked": [
+  "columbusunderground.com/events (403)",
+  "columbuslibrary.org events (403; events.columbuslibrary.org loads empty)",
+  "worthingtonlibraries.org (403)",
+  "columbus.macaronikid.com (403)"
+ ]
 }

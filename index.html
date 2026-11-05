@@ -16,7 +16,7 @@
   --teal:#80c7b5;--alert:#e5553f;--on-accent:#ece5d3;--scrim:rgba(0,0,0,.62);--shadow:rgba(0,0,0,.5);
   --stripe:rgba(255,255,255,.075);--today:rgba(242,182,72,.10);
   --c-music:#d98a3d;--c-film:#6f93d6;--c-museum:#4fa39a;--c-festival:#c7639a;--c-comedy:#d4b23c;
-  --c-theater:#cf5a43;--c-talk:#93a24a;--c-nightlife:#9a6fd6;--c-food:#b88f5c;--c-community:#5f9a5c;
+  --c-theater:#cf5a43;--c-talk:#93a24a;--c-nightlife:#9a6fd6;--c-food:#b88f5c;--c-community:#5f9a5c;--c-sports:#8ea3b5;
   --display:'Big Shoulders Display','Arial Narrow',Impact,sans-serif;
   --ui:'Barlow Condensed','Arial Narrow','Roboto Condensed',sans-serif;
   --mono:'JetBrains Mono',ui-monospace,Menlo,monospace;
@@ -28,7 +28,7 @@
   --teal:#157f78;--alert:#c0392b;--on-accent:#ffffff;--scrim:rgba(30,41,59,.35);--shadow:rgba(30,41,59,.18);
   --stripe:rgba(31,39,51,.075);--today:rgba(59,118,179,.08);
   --c-music:#c4701f;--c-film:#3b6fc0;--c-museum:#157f78;--c-festival:#b0447f;--c-comedy:#a88a12;
-  --c-theater:#b8432c;--c-talk:#6f7e22;--c-nightlife:#7a4fa3;--c-food:#94683a;--c-community:#3f7d3c;
+  --c-theater:#b8432c;--c-talk:#6f7e22;--c-nightlife:#7a4fa3;--c-food:#94683a;--c-community:#3f7d3c;--c-sports:#53687a;
 }
 *{box-sizing:border-box}
 [hidden]{display:none!important}
@@ -76,6 +76,10 @@ select.sel{background:var(--well);border:1px solid var(--line);border-radius:4px
   background:color-mix(in srgb,var(--c) 20%,var(--panel));padding:2px 5px;font-size:13px;line-height:1.25;cursor:pointer;
   white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--ink)}
 .ev.free{background-image:repeating-linear-gradient(135deg,transparent 0 6px,var(--stripe) 6px 9px)}
+/* sports events in their team's colors: --c primary, --c2 secondary (set inline from TEAMS) */
+.ev.team{background:linear-gradient(90deg,color-mix(in srgb,var(--c) 32%,var(--panel)) 55%,color-mix(in srgb,var(--c2) 38%,var(--panel)))}
+.item.team{box-shadow:inset 4px 0 0 var(--c2)}
+.bars i.team{background:linear-gradient(90deg,var(--c) 50%,var(--c2) 50%)}
 .ev .t{font-family:var(--mono);font-size:11px;color:var(--muted);margin-right:4px}
 .ev[data-mark]::after{content:attr(data-mark);position:absolute;right:4px;top:1px;font-size:11px;color:var(--amber)}
 .ev[data-mark]{padding-right:16px}
@@ -177,7 +181,7 @@ dialog::backdrop{background:var(--scrim)}
 /* category colors last so they override component defaults */
 [data-c="music"]{--c:var(--c-music)}[data-c="film"]{--c:var(--c-film)}[data-c="museum"]{--c:var(--c-museum)}
 [data-c="festival"]{--c:var(--c-festival)}[data-c="comedy"]{--c:var(--c-comedy)}[data-c="theater"]{--c:var(--c-theater)}
-[data-c="talk"]{--c:var(--c-talk)}[data-c="nightlife"]{--c:var(--c-nightlife)}[data-c="food"]{--c:var(--c-food)}[data-c="community"]{--c:var(--c-community)}
+[data-c="talk"]{--c:var(--c-talk)}[data-c="nightlife"]{--c:var(--c-nightlife)}[data-c="food"]{--c:var(--c-food)}[data-c="community"]{--c:var(--c-community)}[data-c="sports"]{--c:var(--c-sports)}
 .toast{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);background:var(--panel-2);border:1px solid var(--line);border-radius:6px;padding:8px 14px;font-size:14px;z-index:50;box-shadow:0 6px 20px var(--shadow)}
 </style>
 </head>
@@ -213,6 +217,7 @@ dialog::backdrop{background:var(--scrim)}
     </select>
     <div class="legend" id="legend"></div>
     <label class="toggle"><input type="checkbox" id="freeOnly"> Free only</label>
+    <label class="toggle" title="Show kid-friendly and family events"><input type="checkbox" id="kidsOn"> Kids events</label>
     <span class="status" id="syncStatus"></span>
   </section>
   <section id="view"></section>
@@ -276,8 +281,15 @@ let REPO = (() => { const o = location.hostname.match(/^([^.]+)\.github\.io$/), 
 const CATS = {
   music:{label:"Concert"}, film:{label:"Film"}, museum:{label:"Museum & art"}, theater:{label:"Theater & dance"},
   comedy:{label:"Comedy"}, festival:{label:"Festival"}, talk:{label:"Talks & books"}, nightlife:{label:"Nightlife"},
-  food:{label:"Food & markets"}, community:{label:"Tours & community"}
+  food:{label:"Food & markets"}, community:{label:"Tours & community"}, sports:{label:"Sports"}
 };
+// optional event "team" field -> [primary, secondary] colors for sports chips
+const TEAMS = {
+  browns:["#FF3C00","#311D00"], cavs:["#860038","#FDBB30"], reds:["#C6011F","#000000"], crew:["#FEDD00","#000000"],
+  buckeyes:["#BB0000","#666666"], bluejackets:["#002654","#CE1126"], clippers:["#0C2340","#C8102E"]
+};
+function teamAttr(e){ const t = TEAMS[e.team]; return t ? ` style="--c:${t[0]};--c2:${t[1]}"` : ""; }
+function teamCls(e){ return TEAMS[e.team] ? " team" : ""; }
 const DAY_CAP = 10;          // most events listed per day before the "more" flag
 const RUN_DAYS = 7;          // runs longer than this go in the "On view" drawer instead of every day
 const DOW = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
@@ -299,8 +311,8 @@ const S = {
   config: {},
   venues: {},
   view: "month", cursor: today(), area: store.get("ec.area", ""),
-  mode: "all", freeOnly: false, showHidden: false,
-  cats: store.get("ec.cats", Object.fromEntries(Object.keys(CATS).map(k=>[k,true]))),
+  mode: "all", freeOnly: false, showHidden: false, kids: store.get("ec.kids", true),
+  cats: Object.assign(Object.fromEntries(Object.keys(CATS).map(k=>[k,true])), store.get("ec.cats", {})),
   expanded: new Set()
 };
 
@@ -373,11 +385,14 @@ function mark(e){
   if(n && n === S.people.length && n > 1) return "♥";
   return me ? "★" : n ? "☆" : "";
 }
+// kids events: tagged "family" or "kids" by the agent
+function isKids(e){ return (e.tags||[]).some(t => t === "family" || t === "kids"); }
 function isRun(e){ return e.until && (parseD(e.until) - parseD(e.start)) / 864e5 >= RUN_DAYS; }
 function visible(e){
   if(S.area !== "all" && e.area !== S.area) return false;
   if(!S.cats[e.category]) return false;
   if(S.freeOnly && e.free !== true) return false;
+  if(!S.kids && isKids(e)) return false;
   const st = status(e);
   if(st === "not_interested" && !S.showHidden) return false;
   if(S.mode === "both" && fans(e).length < S.people.length) return false;
@@ -417,7 +432,7 @@ function dayEvents(d){
 const $ = s => document.querySelector(s);
 function chip(e, day){
   const st = status(e), mk = mark(e), opens = e.until && isRun(e) && day === e.start.slice(0,10);
-  return `<button class="ev${e.free===true?" free":""}${mk==="☆"?" partner":""}${st==="not_interested"?" dim":""}" data-c="${esc(e.category)}" data-id="${esc(e.id)}" title="${esc(e.title)}"${mk?` data-mark="${mk}"`:""}>`
+  return `<button class="ev${e.free===true?" free":""}${mk==="☆"?" partner":""}${st==="not_interested"?" dim":""}${teamCls(e)}" data-c="${esc(e.category)}"${teamAttr(e)} data-id="${esc(e.id)}" title="${esc(e.title)}"${mk?` data-mark="${mk}"`:""}>`
     + (e.allDay ? "" : `<span class="t">${esc(fmtTime(e.start))}</span>`) + (opens ? "Opens: " : "") + esc(e.title) + `</button>`;
 }
 function flagSelect(e){
@@ -457,7 +472,7 @@ function marks(e){
 }
 function item(e, day){
   const st = status(e);
-  return `<article class="item${e.free===true?" free":""}${st==="interested"?" star":""}" data-c="${esc(e.category)}">
+  return `<article class="item${e.free===true?" free":""}${st==="interested"?" star":""}${teamCls(e)}" data-c="${esc(e.category)}"${teamAttr(e)}>
     <div class="r1"><span class="tag">${esc(CATS[e.category]?.label||e.category)}</span><span class="tm">${esc(whenText(e, e.until?day:undefined))}</span></div>
     <h3 data-id="${esc(e.id)}">${esc(e.title)}</h3>
     ${marks(e)}
@@ -491,7 +506,7 @@ function renderMonth(){
       <div class="hd"><span class="dnum">${d.getDate()}</span>${D.total?`<span class="cnt${D.total>DAY_CAP?" over":""}" title="${D.total} events">${D.total}</span>`:""}</div>
       ${top.map(e=>chip(e,k)).join("")}
       ${D.total>top.length?`<button class="more" data-day="${k}">+${D.total-top.length} more</button>`:""}
-      <div class="bars">${top.map(e=>`<i data-c="${esc(e.category)}" class="${e.free===true?"free":""}"></i>`).join("")}</div>
+      <div class="bars">${top.map(e=>`<i data-c="${esc(e.category)}"${teamAttr(e)} class="${e.free===true?"free":""}${teamCls(e)}"></i>`).join("")}</div>
     </div>`;
   }
   $("#view").innerHTML = h + `</div>`;
@@ -681,6 +696,8 @@ function renderPeople(){
   $("#modeSel").value = S.mode;
 }
 $("#freeOnly").onchange = e => { S.freeOnly = e.target.checked; render(); };
+$("#kidsOn").checked = S.kids;
+$("#kidsOn").onchange = e => { S.kids = e.target.checked; store.set("ec.kids", S.kids); render(); };
 $("#showHidden").onchange = e => { S.showHidden = e.target.checked; render(); };
 $("#settingsBtn").onclick = () => { renderTaste(S.person); $("#tokenIn").value = token(); $("#tokenState").textContent = token() ? "Token saved in this browser." : "No token saved — flags stay on this device."; $("#setDlg").showModal(); };
 $("#tokenForm").onsubmit = async ev => {
