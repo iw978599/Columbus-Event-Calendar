@@ -575,6 +575,7 @@ function openEvent(id){
     ${e.summary && e.summary !== e.description && !(e.description||"").includes(e.summary)?`<p class="hint">${esc(e.summary)}</p>`:""}
     ${marks(e)}
     <div class="row">${e.url?`<a class="btn small primary" href="${esc(e.url)}" target="_blank" rel="noopener">Event page ↗</a>`:""}${flagSelect(e)}</div>
+    <div class="row"><span class="hint">📅 Add to my calendar:</span><a class="btn small" href="${esc(gcalUrl(e))}" target="_blank" rel="noopener">Google Calendar</a><button class="btn small" data-ics="${esc(e.id)}">Apple / Outlook (.ics)</button></div>
     <p class="hint">Source: ${esc(e.source||"—")} · fit score ${Math.round(e._score)}</p>`;
   $("#evDlg").showModal();
 }
@@ -628,21 +629,35 @@ async function syncFeedback(){
 }
 
 /* ---------- ics */
-function icsFor(list){
+// timed events without an end get two hours
+function endOf(e){ return e.end && e.end.length >= 16 ? e.end : e.start.slice(0,11) + String(Math.min(23,+e.start.slice(11,13)+2)).padStart(2,"0") + e.start.slice(13,16); }
+function placeOf(e){ const a = e.address || S.venues[e.venue]?.address; return a ? `${e.venue}, ${a}` : e.venue; }
+// Google Calendar "add event" link; all-day events and runs are added for their first day
+function gcalUrl(e){
+  const tz = (S.areas.find(a => a.id === e.area)?.timezone) || S.config.timezone || "America/New_York";
+  const d = s => s.replace(/[-:]/g,"").slice(0,13) + "00";
+  const day = s => s.slice(0,10).replace(/-/g,"");
+  const dates = e.allDay || e.start.length < 16
+    ? `${day(e.start)}/${day(key(addDays(parseD(e.start), 1)))}` : `${d(e.start)}/${d(endOf(e))}`;
+  const q = {action:"TEMPLATE", text:e.title, dates, ctz:tz, location:placeOf(e),
+    details:[e.description, e.cost && `Cost: ${e.cost}`, e.url].filter(Boolean).join("\n\n")};
+  return "https://calendar.google.com/calendar/render?" + new URLSearchParams(q).toString();
+}
+function icsFor(list, named = true){
   const tz = id => (S.areas.find(a => a.id === id)?.timezone) || S.config.timezone || "UTC";
   const dt = s => s.replace(/[-:]/g,"").slice(0,13) + "00";
-  const lines = ["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//event-calendar//EN",`X-WR-CALNAME:${S.config.title || "Event Calendar"} — Interested`];
+  const lines = ["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//event-calendar//EN"];
+  if(named) lines.push(`X-WR-CALNAME:${S.config.title || "Event Calendar"} — Interested`);
   for(const e of list){
     lines.push("BEGIN:VEVENT", `UID:${e.id}@event-calendar`, `DTSTAMP:${new Date().toISOString().replace(/[-:]/g,"").slice(0,15)}Z`);
     if(e.allDay || e.start.length < 16){
       lines.push(`DTSTART;VALUE=DATE:${e.start.slice(0,10).replace(/-/g,"")}`);
     } else {
       lines.push(`DTSTART;TZID=${tz(e.area)}:${dt(e.start)}`);
-      const end = e.end && e.end.length >= 16 ? e.end : e.start.slice(0,11) + String(Math.min(23,+e.start.slice(11,13)+2)).padStart(2,"0") + e.start.slice(13,16);
-      lines.push(`DTEND;TZID=${tz(e.area)}:${dt(end)}`);
+      lines.push(`DTEND;TZID=${tz(e.area)}:${dt(endOf(e))}`);
     }
     const f = s => String(s||"").replace(/([,;\\])/g,"\\$1").replace(/\n/g,"\\n");
-    lines.push(`SUMMARY:${f(e.title)}`, `LOCATION:${f(e.venue)}`, `DESCRIPTION:${f([e.cost, e.summary, e.url].filter(Boolean).join(" — "))}`);
+    lines.push(`SUMMARY:${f(e.title)}`, `LOCATION:${f(placeOf(e))}`, `DESCRIPTION:${f([e.cost, e.summary, e.url].filter(Boolean).join(" — "))}`);
     if(e.url) lines.push(`URL:${e.url}`);
     lines.push("END:VEVENT");
   }
@@ -675,6 +690,7 @@ function goDay(k){ S.cursor = parseD(k); S.view = "day"; render(); window.scroll
 document.addEventListener("click", ev => {
   const t = ev.target;
   if(t.closest("[data-close]")){ t.closest("dialog").close(); return; }
+  const ic = t.closest("[data-ics]"); if(ic){ const e = S.events.find(x => x.id === ic.dataset.ics); if(e) download(`${e.id}.ics`, icsFor([e], false), "text/calendar"); return; }
   const chipEl = t.closest(".ev"); if(chipEl){ ev.stopPropagation(); openEvent(chipEl.dataset.id); return; }
   const h3 = t.closest("h3[data-id]"); if(h3){ openEvent(h3.dataset.id); return; }
   const more = t.closest("[data-more]"); if(more){ S.expanded.add(more.dataset.more); render(); return; }
