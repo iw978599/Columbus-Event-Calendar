@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T17:00:00-05:00",
+ "updated": "2026-11-19T12:30:00-05:00",
  "events": [
   {
    "id": "2026-10-23-buzz-brew-coffee-beer-fest",
@@ -5429,6 +5429,1440 @@
     "dance-party"
    ],
    "source": "The Oracle calendar"
+  },
+  {
+   "id": "2026-11-21-crew-at-inter-miami-mls-cup-playoffs-round-one-g",
+   "area": "home",
+   "title": "Crew at Inter Miami: MLS Cup Playoffs Round One, Game 1",
+   "category": "sports",
+   "start": "2026-11-21T18:00",
+   "venue": "On TV (Apple TV)",
+   "cost": "Free on Apple TV",
+   "free": null,
+   "url": "https://www.columbuscrew.com/schedule",
+   "base": 78,
+   "description": "Game 1 of the best-of-three Round One series between the No. 7 seed Columbus Crew and No. 2 Inter Miami CF at Nu Stadium in Miami. Away game, so watch on TV or at a Crew watch party.",
+   "summary": "Away game: 6 pm ET on Apple TV. Game 2 is in Columbus Fri Nov 27.",
+   "tags": [
+    "soccer",
+    "crew",
+    "playoffs"
+   ],
+   "source": "Columbus Crew / MLS",
+   "team": "crew"
+  },
+  {
+   "id": "2026-11-27-crew-vs-inter-miami-mls-cup-playoffs-round-one-g",
+   "area": "home",
+   "title": "Crew vs Inter Miami: MLS Cup Playoffs Round One, Game 2",
+   "category": "sports",
+   "start": "2026-11-27T20:00",
+   "venue": "Lower.com Field",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.columbuscrew.com/schedule",
+   "base": 90,
+   "description": "Game 2 of the best-of-three Round One series at Lower.com Field in Columbus against Inter Miami CF. The Crew finished seventh in the East.",
+   "summary": "8 pm. If the series goes to a Game 3 it is expected around Dec 1-2 at Miami (higher seed hosts); dates unconfirmed, check MLS.",
+   "tags": [
+    "soccer",
+    "crew",
+    "playoffs"
+   ],
+   "source": "Columbus Crew / MLS",
+   "team": "crew"
+  },
+  {
+   "id": "2026-12-14-cavs-vs-charlotte-hornets",
+   "area": "home",
+   "title": "Cavs vs Charlotte Hornets",
+   "category": "sports",
+   "start": "2026-12-14",
+   "allDay": true,
+   "venue": "Rocket Arena",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.nba.com/cavaliers/schedule",
+   "base": 80,
+   "description": "Cleveland Cavaliers home game against the Charlotte Hornets at Rocket Arena, about a two-hour drive from Columbus. ",
+   "summary": "Tip-off time not confirmed yet; check the Cavs site. Dec 14 was added to the schedule after the NBA Cup.",
+   "tags": [
+    "basketball",
+    "cavs"
+   ],
+   "source": "Cavaliers promotional schedule / NBA",
+   "team": "cavs"
+  },
+  {
+   "id": "2026-12-20-cavs-vs-utah-jazz",
+   "area": "home",
+   "title": "Cavs vs Utah Jazz",
+   "category": "sports",
+   "start": "2026-12-20",
+   "allDay": true,
+   "venue": "Rocket Arena",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.nba.com/cavaliers/schedule",
+   "base": 80,
+   "description": "Cleveland Cavaliers home game against the Utah Jazz at Rocket Arena, about a two-hour drive from Columbus. Sam Merrill bobblehead night.",
+   "summary": "Tip-off time not confirmed yet; check the Cavs site. Dec 14 was added to the schedule after the NBA Cup.",
+   "tags": [
+    "basketball",
+    "cavs"
+   ],
+   "source": "Cavaliers promotional schedule / NBA",
+   "team": "cavs"
+  },
+  {
+   "id": "2026-12-21-cavs-vs-new-york-knicks",
+   "area": "home",
+   "title": "Cavs vs New York Knicks",
+   "category": "sports",
+   "start": "2026-12-21",
+   "allDay": true,
+   "venue": "Rocket Arena",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.nba.com/cavaliers/schedule",
+   "base": 80,
+   "description": "Cleveland Cavaliers home game against the New York Knicks at Rocket Arena, about a two-hour drive from Columbus. Foam finger giveaway night.",
+   "summary": "Tip-off time not confirmed yet; check the Cavs site. Dec 14 was added to the schedule after the NBA Cup.",
+   "tags": [
+    "basketball",
+    "cavs"
+   ],
+   "source": "Cavaliers promotional schedule / NBA",
+   "team": "cavs"
+  },
+  {
+   "id": "2026-12-27-cavs-vs-washington-wizards",
+   "area": "home",
+   "title": "Cavs vs Washington Wizards",
+   "category": "sports",
+   "start": "2026-12-27",
+   "allDay": true,
+   "venue": "Rocket Arena",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.nba.com/cavaliers/schedule",
+   "base": 85,
+   "description": "Cleveland Cavaliers home game against the Washington Wizards at Rocket Arena, about a two-hour drive from Columbus. Kids Day game.",
+   "summary": "Tip-off time not confirmed yet; check the Cavs site. Dec 14 was added to the schedule after the NBA Cup.",
+   "tags": [
+    "basketball",
+    "cavs",
+    "family"
+   ],
+   "source": "Cavaliers promotional schedule / NBA",
+   "team": "cavs"
+  },
+  {
+   "id": "2026-12-20-browns-at-new-york-giants",
+   "area": "home",
+   "title": "Browns at New York Giants",
+   "category": "sports",
+   "start": "2026-12-20",
+   "allDay": true,
+   "venue": "On TV",
+   "cost": "Free on TV",
+   "free": null,
+   "url": "https://www.clevelandbrowns.com/schedule/",
+   "base": 74,
+   "description": "Week 15 away game for the Browns at the Giants. Watch on TV or at a Browns Backers bar such as Meister's in Grandview.",
+   "summary": "Kickoff time not confirmed in my sources.",
+   "tags": [
+    "football",
+    "browns"
+   ],
+   "source": "Cleveland Browns schedule",
+   "team": "browns"
+  },
+  {
+   "id": "2026-12-27-browns-at-baltimore-ravens",
+   "area": "home",
+   "title": "Browns at Baltimore Ravens",
+   "category": "sports",
+   "start": "2026-12-27",
+   "allDay": true,
+   "venue": "On TV",
+   "cost": "Free on TV",
+   "free": null,
+   "url": "https://www.clevelandbrowns.com/schedule/",
+   "base": 74,
+   "description": "Week 16 away game for the Browns at the Ravens. Watch on TV or at a Browns Backers bar.",
+   "summary": "Kickoff time not confirmed in my sources.",
+   "tags": [
+    "football",
+    "browns"
+   ],
+   "source": "Cleveland Browns schedule",
+   "team": "browns"
+  },
+  {
+   "id": "2026-11-20-conservatory-aglow-live-entertainment-mirror-duo",
+   "area": "home",
+   "title": "Conservatory Aglow live entertainment: Mirror Duo",
+   "category": "community",
+   "start": "2026-11-20T18:00",
+   "venue": "Franklin Park Conservatory",
+   "cost": "See site",
+   "free": null,
+   "url": "https://fpconservatory.org/",
+   "base": 60,
+   "description": "6 pm live holiday entertainment from Mirror Duo at Franklin Park Conservatory during Conservatory Aglow. All ages.",
+   "summary": "Listed as all ages; check the Conservatory for admission.",
+   "tags": [
+    "family",
+    "holiday",
+    "lights"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-11-21-conservatory-aglow-live-entertainment-columbus-c",
+   "area": "home",
+   "title": "Conservatory Aglow live entertainment: Columbus Chorus of Sweet Adelines",
+   "category": "community",
+   "start": "2026-11-21T18:00",
+   "venue": "Franklin Park Conservatory",
+   "cost": "See site",
+   "free": null,
+   "url": "https://fpconservatory.org/",
+   "base": 60,
+   "description": "6 pm live holiday entertainment from Columbus Chorus of Sweet Adelines at Franklin Park Conservatory during Conservatory Aglow. All ages.",
+   "summary": "Listed as all ages; check the Conservatory for admission.",
+   "tags": [
+    "family",
+    "holiday",
+    "lights"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-11-22-conservatory-aglow-live-entertainment-columbus-c",
+   "area": "home",
+   "title": "Conservatory Aglow live entertainment: Columbus Chorus of Sweet Adelines",
+   "category": "community",
+   "start": "2026-11-22T18:00",
+   "venue": "Franklin Park Conservatory",
+   "cost": "See site",
+   "free": null,
+   "url": "https://fpconservatory.org/",
+   "base": 60,
+   "description": "6 pm live holiday entertainment from Columbus Chorus of Sweet Adelines at Franklin Park Conservatory during Conservatory Aglow. All ages.",
+   "summary": "Listed as all ages; check the Conservatory for admission.",
+   "tags": [
+    "family",
+    "holiday",
+    "lights"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-11-23-conservatory-aglow-live-entertainment-mirror-duo",
+   "area": "home",
+   "title": "Conservatory Aglow live entertainment: Mirror Duo",
+   "category": "community",
+   "start": "2026-11-23T18:00",
+   "venue": "Franklin Park Conservatory",
+   "cost": "See site",
+   "free": null,
+   "url": "https://fpconservatory.org/",
+   "base": 60,
+   "description": "6 pm live holiday entertainment from Mirror Duo at Franklin Park Conservatory during Conservatory Aglow. All ages.",
+   "summary": "Listed as all ages; check the Conservatory for admission.",
+   "tags": [
+    "family",
+    "holiday",
+    "lights"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-11-24-conservatory-aglow-live-entertainment-mirror-duo",
+   "area": "home",
+   "title": "Conservatory Aglow live entertainment: Mirror Duo",
+   "category": "community",
+   "start": "2026-11-24T18:00",
+   "venue": "Franklin Park Conservatory",
+   "cost": "See site",
+   "free": null,
+   "url": "https://fpconservatory.org/",
+   "base": 60,
+   "description": "6 pm live holiday entertainment from Mirror Duo at Franklin Park Conservatory during Conservatory Aglow. All ages.",
+   "summary": "Listed as all ages; check the Conservatory for admission.",
+   "tags": [
+    "family",
+    "holiday",
+    "lights"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-11-25-conservatory-aglow-live-entertainment-mirror-duo",
+   "area": "home",
+   "title": "Conservatory Aglow live entertainment: Mirror Duo",
+   "category": "community",
+   "start": "2026-11-25T18:00",
+   "venue": "Franklin Park Conservatory",
+   "cost": "See site",
+   "free": null,
+   "url": "https://fpconservatory.org/",
+   "base": 60,
+   "description": "6 pm live holiday entertainment from Mirror Duo at Franklin Park Conservatory during Conservatory Aglow. All ages.",
+   "summary": "Listed as all ages; check the Conservatory for admission.",
+   "tags": [
+    "family",
+    "holiday",
+    "lights"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-12-04-conservatory-aglow-live-entertainment-blue-kids-",
+   "area": "home",
+   "title": "Conservatory Aglow live entertainment: Blue Kids on the Block",
+   "category": "community",
+   "start": "2026-12-04T18:00",
+   "venue": "Franklin Park Conservatory",
+   "cost": "See site",
+   "free": null,
+   "url": "https://fpconservatory.org/",
+   "base": 60,
+   "description": "6 pm live holiday entertainment from Blue Kids on the Block at Franklin Park Conservatory during Conservatory Aglow. All ages.",
+   "summary": "Listed as all ages; check the Conservatory for admission.",
+   "tags": [
+    "family",
+    "holiday",
+    "lights"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-12-05-conservatory-aglow-live-entertainment-music-men-",
+   "area": "home",
+   "title": "Conservatory Aglow live entertainment: Music Men & Jen",
+   "category": "community",
+   "start": "2026-12-05T18:00",
+   "venue": "Franklin Park Conservatory",
+   "cost": "See site",
+   "free": null,
+   "url": "https://fpconservatory.org/",
+   "base": 60,
+   "description": "6 pm live holiday entertainment from Music Men & Jen at Franklin Park Conservatory during Conservatory Aglow. All ages.",
+   "summary": "Listed as all ages; check the Conservatory for admission.",
+   "tags": [
+    "family",
+    "holiday",
+    "lights"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-12-06-conservatory-aglow-live-entertainment-magpie-con",
+   "area": "home",
+   "title": "Conservatory Aglow live entertainment: Magpie Consort",
+   "category": "community",
+   "start": "2026-12-06T18:00",
+   "venue": "Franklin Park Conservatory",
+   "cost": "See site",
+   "free": null,
+   "url": "https://fpconservatory.org/",
+   "base": 60,
+   "description": "6 pm live holiday entertainment from Magpie Consort at Franklin Park Conservatory during Conservatory Aglow. All ages.",
+   "summary": "Listed as all ages; check the Conservatory for admission.",
+   "tags": [
+    "family",
+    "holiday",
+    "lights"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-12-11-conservatory-aglow-live-entertainment-reindeer-s",
+   "area": "home",
+   "title": "Conservatory Aglow live entertainment: Reindeer & Snowman Stilt Duo",
+   "category": "community",
+   "start": "2026-12-11T18:00",
+   "venue": "Franklin Park Conservatory",
+   "cost": "See site",
+   "free": null,
+   "url": "https://fpconservatory.org/",
+   "base": 60,
+   "description": "6 pm live holiday entertainment from Reindeer & Snowman Stilt Duo at Franklin Park Conservatory during Conservatory Aglow. All ages.",
+   "summary": "Listed as all ages; check the Conservatory for admission.",
+   "tags": [
+    "family",
+    "holiday",
+    "lights"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-12-13-conservatory-aglow-live-entertainment-scioto-val",
+   "area": "home",
+   "title": "Conservatory Aglow live entertainment: Scioto Valley Chorus",
+   "category": "community",
+   "start": "2026-12-13T18:00",
+   "venue": "Franklin Park Conservatory",
+   "cost": "See site",
+   "free": null,
+   "url": "https://fpconservatory.org/",
+   "base": 60,
+   "description": "6 pm live holiday entertainment from Scioto Valley Chorus at Franklin Park Conservatory during Conservatory Aglow. All ages.",
+   "summary": "Listed as all ages; check the Conservatory for admission.",
+   "tags": [
+    "family",
+    "holiday",
+    "lights"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-11-21-feztival-of-trees",
+   "area": "home",
+   "title": "FEZtival of Trees",
+   "category": "festival",
+   "start": "2026-11-21T10:00",
+   "venue": "Aladdin Shrine Center",
+   "cost": "$5; kids 12 and under free",
+   "free": false,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 66,
+   "description": "Holiday festival of decorated trees with multiple acts through the day, including the OSU band at 4 pm.",
+   "summary": "10 am–4 pm. A kids' performance by Grove City Vineyard Kids is listed for Sat Nov 28 at 10:30 am.",
+   "tags": [
+    "family",
+    "holiday",
+    "festival"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-11-28-grove-city-vineyard-kids-at-feztival-of-trees",
+   "area": "home",
+   "title": "Grove City Vineyard Kids at FEZtival of Trees",
+   "category": "festival",
+   "start": "2026-11-28T10:30",
+   "venue": "Aladdin Shrine Center",
+   "cost": "$5; kids 12 and under free",
+   "free": false,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 55,
+   "description": "Kids' group performance at the FEZtival of Trees holiday festival.",
+   "tags": [
+    "family",
+    "holiday"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-11-22-columbus-youth-jazz-combos-fall-concert",
+   "area": "home",
+   "title": "Columbus Youth Jazz Combos Fall Concert",
+   "category": "music",
+   "start": "2026-11-22T14:00",
+   "venue": "Columbus Metropolitan Library (Main)",
+   "cost": "$5 students / $10 adults (suggested)",
+   "free": null,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 62,
+   "description": "Student jazz combos perform at the Main Library downtown.",
+   "tags": [
+    "family",
+    "jazz"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-11-25-family-puzzle-cafe",
+   "area": "home",
+   "title": "Family Puzzle Cafe",
+   "category": "community",
+   "start": "2026-11-25T13:30",
+   "venue": "Bexley Public Library",
+   "cost": "Free",
+   "free": true,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 58,
+   "description": "Drop-in puzzle-solving cafe for kids and families at the Bexley library.",
+   "tags": [
+    "family",
+    "library",
+    "games"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-11-25-sensory-play-seasons-nature",
+   "area": "home",
+   "title": "Sensory Play: Seasons & Nature",
+   "category": "community",
+   "start": "2026-11-25T10:30",
+   "venue": "Upper Arlington Public Library (Lane Ave.)",
+   "cost": "See site",
+   "free": null,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 48,
+   "description": "Toddler sensory play at the Upper Arlington library, themed on seasons and nature.",
+   "tags": [
+    "family",
+    "library",
+    "upper-arlington"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-11-27-a-christmas-carol",
+   "area": "home",
+   "title": "A Christmas Carol",
+   "category": "theater",
+   "start": "2026-11-27T14:00",
+   "venue": "Ohio Theatre",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.capa.com/",
+   "base": 70,
+   "description": "Stage production of the Dickens holiday classic at the Ohio Theatre, with a 2 pm matinee and a 7:30 pm show.",
+   "summary": "Also 7:30 pm.",
+   "tags": [
+    "family",
+    "holiday",
+    "theater"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-12-03-music-in-the-atrium-columbus-chorus-of-sweet-ade",
+   "area": "home",
+   "title": "Music in the Atrium: Columbus Chorus of Sweet Adelines",
+   "category": "music",
+   "start": "2026-12-03T18:30",
+   "venue": "Grandview Heights Public Library",
+   "cost": "See site",
+   "free": null,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 55,
+   "description": "Holiday-season choral performance in the library atrium.",
+   "tags": [
+    "family",
+    "grandview",
+    "library"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-12-05-winter-wonderland-concert-with-mr-e",
+   "area": "home",
+   "title": "Winter Wonderland: concert with Mr. E",
+   "category": "music",
+   "start": "2026-12-05T10:00",
+   "venue": "Upper Arlington Public Library (Tremont)",
+   "cost": "See site",
+   "free": null,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 60,
+   "description": "Family concert with Mr. E at the Tremont branch.",
+   "tags": [
+    "family",
+    "upper-arlington",
+    "library"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-11-21-satur-play-youth-activity-space",
+   "area": "home",
+   "title": "Satur-PLAY: Youth Activity Space",
+   "category": "community",
+   "start": "2026-11-21T10:00",
+   "venue": "Upper Arlington Public Library (Tremont)",
+   "cost": "Free",
+   "free": true,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 58,
+   "description": "Saturday morning open play and activities for kids at the Tremont branch.",
+   "tags": [
+    "family",
+    "upper-arlington",
+    "library"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-12-05-satur-play-youth-activity-space",
+   "area": "home",
+   "title": "Satur-PLAY: Youth Activity Space",
+   "category": "community",
+   "start": "2026-12-05T10:00",
+   "venue": "Upper Arlington Public Library (Tremont)",
+   "cost": "Free",
+   "free": true,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 58,
+   "description": "Saturday morning open play and activities for kids at the Tremont branch.",
+   "tags": [
+    "family",
+    "upper-arlington",
+    "library"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-12-12-satur-play-youth-activity-space",
+   "area": "home",
+   "title": "Satur-PLAY: Youth Activity Space",
+   "category": "community",
+   "start": "2026-12-12T10:00",
+   "venue": "Upper Arlington Public Library (Tremont)",
+   "cost": "Free",
+   "free": true,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 58,
+   "description": "Saturday morning open play and activities for kids at the Tremont branch.",
+   "tags": [
+    "family",
+    "upper-arlington",
+    "library"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-12-04-magic-across-america-starring-josh-farley",
+   "area": "home",
+   "title": "Magic Across America starring Josh Farley",
+   "category": "theater",
+   "start": "2026-12-04T19:00",
+   "venue": "Up Front at Shadowbox",
+   "cost": "$30",
+   "free": false,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 58,
+   "description": "All-ages magic show at Shadowbox Live's Up Front space.",
+   "tags": [
+    "family",
+    "magic"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-12-12-yuletide-funk-a-blue-jays-christmas",
+   "area": "home",
+   "title": "Yuletide Funk! A Blue Jays Christmas",
+   "category": "music",
+   "start": "2026-12-12T19:00",
+   "venue": "Up Front at Shadowbox",
+   "cost": "$20",
+   "free": false,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 56,
+   "description": "All-ages holiday funk show at Shadowbox Live's Up Front space.",
+   "tags": [
+    "family",
+    "holiday"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-12-05-aristocats",
+   "area": "home",
+   "title": "Aristocats",
+   "category": "film",
+   "start": "2026-12-05T19:00",
+   "venue": "MadLab",
+   "cost": "$11.50",
+   "free": false,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 60,
+   "description": "Screening of Disney's The Aristocats. Listed with multiple showtimes Dec 5 and 6.",
+   "summary": "Also earlier shows Dec 5 (6 pm, 7:30 pm) and Dec 6.",
+   "tags": [
+    "family",
+    "film",
+    "kids"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-12-04-columbus-symphony-holiday-pops",
+   "area": "home",
+   "title": "Columbus Symphony Holiday Pops",
+   "category": "music",
+   "start": "2026-12-04T20:00",
+   "venue": "Ohio Theatre",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.capa.com/",
+   "base": 66,
+   "description": "Columbus Symphony's annual holiday pops concerts at the Ohio Theatre.",
+   "summary": "Also Sat Dec 5, 3 pm.",
+   "tags": [
+    "holiday",
+    "orchestra"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-12-05-columbus-symphony-holiday-pops-matinee",
+   "area": "home",
+   "title": "Columbus Symphony Holiday Pops (matinee)",
+   "category": "music",
+   "start": "2026-12-05T15:00",
+   "venue": "Ohio Theatre",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.capa.com/",
+   "base": 66,
+   "description": "Saturday matinee of the Columbus Symphony holiday pops concerts.",
+   "tags": [
+    "family",
+    "holiday",
+    "orchestra"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-12-05-trans-siberian-orchestra",
+   "area": "home",
+   "title": "Trans-Siberian Orchestra",
+   "category": "music",
+   "start": "2026-12-05T19:30",
+   "venue": "Nationwide Arena",
+   "cost": "See site",
+   "free": null,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 60,
+   "description": "Trans-Siberian Orchestra's holiday rock tour stops at Nationwide Arena.",
+   "summary": "Also 3 pm show Dec 5.",
+   "tags": [
+    "holiday",
+    "rock"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-12-06-kid-rave-9",
+   "area": "home",
+   "title": "Kid Rave 9",
+   "category": "music",
+   "start": "2026-12-06T13:00",
+   "venue": "Skully's Music-Diner",
+   "cost": "See site",
+   "free": null,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 60,
+   "description": "Daytime dance party for kids and families at Skully's, 1–5 pm.",
+   "tags": [
+    "family",
+    "dance-party",
+    "kids"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-12-06-nutcracker-tea-with-balletmet",
+   "area": "home",
+   "title": "Nutcracker Tea with BalletMet",
+   "category": "food",
+   "start": "2026-12-06T11:00",
+   "venue": "Soul at the Joseph",
+   "cost": "$105.71 adult; $53.86 ages 3-10; free ages 0-2",
+   "free": false,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 50,
+   "description": "Tea service with BalletMet Nutcracker characters, 11 am–1 pm.",
+   "tags": [
+    "family",
+    "holiday",
+    "ballet"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-12-07-magic-of-the-holiday-with-erica-carlson",
+   "area": "home",
+   "title": "Magic of the Holiday with Erica Carlson",
+   "category": "community",
+   "start": "2026-12-07T10:30",
+   "venue": "Columbus Metropolitan Library (Reynoldsburg)",
+   "cost": "Free",
+   "free": true,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 52,
+   "description": "Holiday magic show for young children at the Reynoldsburg library.",
+   "summary": "Same show Dec 10 (5 pm, Southeast) and Dec 12 (3 pm, South High).",
+   "tags": [
+    "family",
+    "library",
+    "magic"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-12-08-drama-kids-ages-6-11",
+   "area": "home",
+   "title": "Drama Kids (ages 6-11)",
+   "category": "community",
+   "start": "2026-12-08T16:30",
+   "venue": "Westerville Public Library",
+   "cost": "Free",
+   "free": true,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 50,
+   "description": "Drama program for ages 6-11 at the Westerville library.",
+   "tags": [
+    "family",
+    "library"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-12-09-power-up-video-game-night-ages-8-11",
+   "area": "home",
+   "title": "Power Up! Video Game Night (ages 8-11)",
+   "category": "community",
+   "start": "2026-12-09T17:30",
+   "venue": "Westerville Public Library",
+   "cost": "Free",
+   "free": true,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 52,
+   "description": "Video game night for ages 8-11 at the Westerville library.",
+   "tags": [
+    "family",
+    "library",
+    "games"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-12-10-magic-of-the-holiday-with-erica-carlson",
+   "area": "home",
+   "title": "Magic of the Holiday with Erica Carlson",
+   "category": "community",
+   "start": "2026-12-10T17:00",
+   "venue": "Columbus Metropolitan Library (Southeast)",
+   "cost": "Free",
+   "free": true,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 52,
+   "description": "Holiday magic show at the Southeast branch.",
+   "tags": [
+    "family",
+    "library",
+    "magic"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-12-11-parachute-play-ages-2-5",
+   "area": "home",
+   "title": "Parachute Play (ages 2-5)",
+   "category": "community",
+   "start": "2026-12-11T10:00",
+   "venue": "Westerville Public Library",
+   "cost": "Free",
+   "free": true,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 45,
+   "description": "Parachute play for ages 2-5.",
+   "tags": [
+    "family",
+    "library"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-12-11-holiday-party-at-the-community-center",
+   "area": "home",
+   "title": "Holiday Party at the Community Center",
+   "category": "community",
+   "start": "2026-12-11T18:00",
+   "venue": "Worthington Community Center",
+   "cost": "See site",
+   "free": null,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 58,
+   "description": "All-ages holiday party at the Worthington Community Center.",
+   "tags": [
+    "family",
+    "worthington",
+    "holiday"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-12-12-pbj-jazz-songs-of-the-season",
+   "area": "home",
+   "title": "PBJ & Jazz: Songs of the Season",
+   "category": "music",
+   "start": "2026-12-12T11:30",
+   "venue": "Columbus Metropolitan Library (Main)",
+   "cost": "Free",
+   "free": true,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 60,
+   "description": "Family jazz concert of seasonal songs at the Main Library downtown.",
+   "tags": [
+    "family",
+    "jazz",
+    "holiday"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-12-12-magic-of-the-holiday-with-erica-carlson",
+   "area": "home",
+   "title": "Magic of the Holiday with Erica Carlson",
+   "category": "community",
+   "start": "2026-12-12T15:00",
+   "venue": "Columbus Metropolitan Library (South High)",
+   "cost": "Free",
+   "free": true,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 52,
+   "description": "Holiday magic show at the South High branch.",
+   "tags": [
+    "family",
+    "library",
+    "magic"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-12-13-family-concert-series-columbus-tuba-troupe",
+   "area": "home",
+   "title": "Family Concert Series: Columbus Tuba Troupe",
+   "category": "music",
+   "start": "2026-12-13T15:00",
+   "venue": "Columbus Metropolitan Library (Hilliard)",
+   "cost": "Free",
+   "free": true,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 55,
+   "description": "Family concert by the Columbus Tuba Troupe at the Hilliard library.",
+   "tags": [
+    "family",
+    "library"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-12-13-christmas-with-capriccio",
+   "area": "home",
+   "title": "Christmas with Capriccio!",
+   "category": "music",
+   "start": "2026-12-13T16:00",
+   "venue": "Worthington Presbyterian Church",
+   "cost": "$22; $17 seniors; $5 child",
+   "free": false,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 55,
+   "description": "Holiday concert by Capriccio in Worthington.",
+   "tags": [
+    "family",
+    "worthington",
+    "holiday"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-12-13-westerville-winterfest-carnival",
+   "area": "home",
+   "title": "Westerville Winterfest & Carnival",
+   "category": "festival",
+   "start": "2026-12-13",
+   "allDay": true,
+   "venue": "Clements Center, Otterbein University",
+   "cost": "Free",
+   "free": true,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 56,
+   "description": "Free indoor holiday festival with Santa and character meet-and-greets, a fun zone, mini golf and vendors.",
+   "summary": "Start time not confirmed; check the Westerville Winterfest page.",
+   "tags": [
+    "family",
+    "holiday"
+   ],
+   "source": "ABC6"
+  },
+  {
+   "id": "2026-11-20-skully-s-music-diner-25th-anniversary-party",
+   "area": "home",
+   "title": "Skully's Music-Diner 25th Anniversary Party",
+   "category": "music",
+   "start": "2026-11-20T18:30",
+   "venue": "Skully's Music-Diner",
+   "cost": "$15",
+   "free": false,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 66,
+   "description": "Birthday party for Skully's, the Short North music-diner, 18+.",
+   "tags": [
+    "nightlife",
+    "anniversary"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-11-20-the-out-howling-commandos-saynt-bernard",
+   "area": "home",
+   "title": "The Out, Howling Commandos, Saynt Bernard",
+   "category": "music",
+   "start": "2026-11-20T19:00",
+   "venue": "Spacebar",
+   "cost": "$10",
+   "free": false,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 60,
+   "description": "Local band bill at Spacebar, 18+.",
+   "tags": [
+    "rock",
+    "local"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-11-20-candlelight-queen-vs-abba",
+   "area": "home",
+   "title": "Candlelight: Queen vs. ABBA",
+   "category": "music",
+   "start": "2026-11-20T20:45",
+   "venue": "Short North Church",
+   "cost": "$38+",
+   "free": false,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 62,
+   "description": "Candlelit string-quartet tribute to Queen and ABBA.",
+   "summary": "Also 6:30 pm Vivaldi's Four Seasons and More ($45+).",
+   "tags": [
+    "concert",
+    "candlelight"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-11-22-candlelight-tribute-to-fleetwood-mac",
+   "area": "home",
+   "title": "Candlelight: Tribute to Fleetwood Mac",
+   "category": "music",
+   "start": "2026-11-22T20:45",
+   "venue": "Columbus Museum of Art",
+   "cost": "$33.50+",
+   "free": false,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 64,
+   "description": "Candlelit string tribute to Fleetwood Mac. Ages 8+; 15 and under with an adult.",
+   "summary": "Also 6:30 pm Candlelight: 90s Unplugged ($45+).",
+   "tags": [
+    "concert",
+    "candlelight"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-11-22-counterpoints-art-inspired-performance",
+   "area": "home",
+   "title": "Counterpoints: Art-Inspired Performance",
+   "category": "museum",
+   "start": "2026-11-22T15:00",
+   "venue": "Wexner Center for the Arts",
+   "cost": "Free with ticket",
+   "free": true,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 52,
+   "description": "Art-inspired performance at the Wexner Center.",
+   "tags": [
+    "art",
+    "performance"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-11-27-chris-kattan",
+   "area": "home",
+   "title": "Chris Kattan",
+   "category": "comedy",
+   "start": "2026-11-27T21:00",
+   "venue": "Walrus",
+   "cost": "$50.16-$73.03",
+   "free": false,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 60,
+   "description": "Stand-up from the Saturday Night Live alum, 21+ at The Attic.",
+   "summary": "Also 7 pm Nov 27 and 7 pm Nov 28.",
+   "tags": [
+    "comedy"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-11-28-chris-kattan",
+   "area": "home",
+   "title": "Chris Kattan",
+   "category": "comedy",
+   "start": "2026-11-28T19:00",
+   "venue": "Walrus",
+   "cost": "$50.16-$73.03",
+   "free": false,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 58,
+   "description": "Stand-up from the Saturday Night Live alum, 21+ at The Attic.",
+   "tags": [
+    "comedy"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-11-20-charlie-berens-the-lost-and-found-tour",
+   "area": "home",
+   "title": "Charlie Berens: The Lost and Found Tour",
+   "category": "comedy",
+   "start": "2026-11-20T19:00",
+   "venue": "Southern Theatre",
+   "cost": "See site",
+   "free": null,
+   "url": "https://www.capa.com/",
+   "base": 55,
+   "description": "Stand-up tour stop at the Southern Theatre.",
+   "tags": [
+    "comedy"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-11-25-spacebar-54-disco-night-with-trueskills-restart",
+   "area": "home",
+   "title": "Spacebar 54: Disco Night with Trueskills + reStart",
+   "category": "nightlife",
+   "start": "2026-11-25T21:00",
+   "venue": "Spacebar",
+   "cost": "$5",
+   "free": false,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 70,
+   "description": "Disco dance night at Spacebar, 21+.",
+   "tags": [
+    "dance-party",
+    "disco",
+    "80s"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-11-25-grateful-dead-super-jam-andy-shaw-band-friends-o",
+   "area": "home",
+   "title": "Grateful Dead Super Jam: Andy Shaw Band, Friends of the Dead",
+   "category": "music",
+   "start": "2026-11-25T20:00",
+   "venue": "The Summit Music Hall",
+   "cost": "$10",
+   "free": false,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 52,
+   "description": "Thanksgiving-eve Grateful Dead covers jam.",
+   "tags": [
+    "jam",
+    "concert"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-11-25-thanksgiving-eve-with-trans-fat-orchestra",
+   "area": "home",
+   "title": "Thanksgiving Eve with Trans Fat Orchestra",
+   "category": "music",
+   "start": "2026-11-25T19:00",
+   "venue": "Woodlands Tavern",
+   "cost": "Free",
+   "free": true,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 55,
+   "description": "Thanksgiving-eve show at Woodlands Tavern, all ages.",
+   "tags": [
+    "concert",
+    "local"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-11-27-church-the-original-church-goth-night",
+   "area": "home",
+   "title": "Church: The Original Church Goth Night",
+   "category": "nightlife",
+   "start": "2026-11-27T22:00",
+   "venue": "Spacebar",
+   "cost": "$5",
+   "free": false,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 86,
+   "description": "Columbus's long-running goth night at Spacebar, 21+.",
+   "tags": [
+    "goth",
+    "dance-party",
+    "darkwave"
+   ],
+   "source": "Cringe Columbus listings / Dead Souls"
+  },
+  {
+   "id": "2026-11-27-record-store-day-black-friday-2026",
+   "area": "home",
+   "title": "Record Store Day: Black Friday 2026",
+   "category": "community",
+   "start": "2026-11-27T08:00",
+   "venue": "Used Kids Records",
+   "cost": "Free",
+   "free": true,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 66,
+   "description": "Record Store Day Black Friday releases at Used Kids Records.",
+   "tags": [
+    "records",
+    "shopping"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-11-27-sofar-sounds-downtown-columbus",
+   "area": "home",
+   "title": "Sofar Sounds: Downtown Columbus",
+   "category": "music",
+   "start": "2026-11-27T20:00",
+   "venue": "Downtown Columbus (secret location)",
+   "cost": "$23",
+   "free": false,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 62,
+   "description": "Intimate secret-lineup concert; the venue is revealed to ticket holders.",
+   "summary": "Doors 7:30 pm.",
+   "tags": [
+    "concert",
+    "indie"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-11-28-emo-night-brooklyn",
+   "area": "home",
+   "title": "Emo Night Brooklyn",
+   "category": "nightlife",
+   "start": "2026-11-28T21:30",
+   "venue": "Skully's Music-Diner",
+   "cost": "See site",
+   "free": null,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 66,
+   "description": "Emo dance night, sing-along style.",
+   "tags": [
+    "dance-party",
+    "emo"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-11-28-thatz-hot-y2k-dance-night",
+   "area": "home",
+   "title": "Thatz Hot: Y2K Dance Night",
+   "category": "nightlife",
+   "start": "2026-11-28T20:00",
+   "venue": "Ace of Cups",
+   "cost": "$15.52",
+   "free": false,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 60,
+   "description": "Y2K-themed dance party, 18+.",
+   "tags": [
+    "dance-party",
+    "theme-night"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-12-03-the-bouncing-souls-born-to-be-tour",
+   "area": "home",
+   "title": "The Bouncing Souls: Born To Be Tour",
+   "category": "music",
+   "start": "2026-12-03T18:00",
+   "venue": "Skully's Music-Diner",
+   "cost": "$39 / $45",
+   "free": false,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 64,
+   "description": "Punk tour with The Suicide Machines, Jack Knives and Flatliners.",
+   "tags": [
+    "punk",
+    "concert"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-12-04-vortex-underground-80s-vinyl-night-with-dj-dynam",
+   "area": "home",
+   "title": "Vortex: Underground 80s Vinyl Night with DJ Dynamo",
+   "category": "nightlife",
+   "start": "2026-12-04T21:00",
+   "venue": "Spacebar",
+   "cost": "$5",
+   "free": false,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 86,
+   "description": "80s vinyl dance night at Spacebar, 21+.",
+   "tags": [
+    "80s",
+    "dance-party",
+    "dj"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-12-05-a-krampus-nacht-with-fleischgewehr-rammstein-tri",
+   "area": "home",
+   "title": "A Krampus Nacht with FleischGewehR (Rammstein tribute)",
+   "category": "music",
+   "start": "2026-12-05T19:00",
+   "venue": "Spacebar",
+   "cost": "$10",
+   "free": false,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 64,
+   "description": "Krampus-night show with a Rammstein tribute band.",
+   "tags": [
+    "theme-night",
+    "concert"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-12-09-shampoo-for-the-monks-the-stranger-said-the-frit",
+   "area": "home",
+   "title": "Shampoo for the Monks, The Stranger Said, The Fritters, Basement Balcony",
+   "category": "music",
+   "start": "2026-12-09T19:00",
+   "venue": "Spacebar",
+   "cost": "$10",
+   "free": false,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 66,
+   "description": "Local indie/rock bill at Spacebar.",
+   "tags": [
+    "indie",
+    "concert",
+    "local"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-12-11-matter-news-fundraiser-lydia-loveless-the-notic-",
+   "area": "home",
+   "title": "Matter News Fundraiser: Lydia Loveless, the notic, BeachKitty",
+   "category": "music",
+   "start": "2026-12-11T19:00",
+   "venue": "Spacebar",
+   "cost": "$10",
+   "free": false,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 72,
+   "description": "Benefit show for Matter News with Lydia Loveless and local bands.",
+   "tags": [
+    "indie",
+    "concert",
+    "benefit"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-12-12-gelatinus-cube-holiday-show",
+   "area": "home",
+   "title": "Gelatinus Cube Holiday Show",
+   "category": "music",
+   "start": "2026-12-12T18:00",
+   "venue": "Spacebar",
+   "cost": "See site",
+   "free": null,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 60,
+   "description": "Holiday show with Gelatinus Cube, Morning Theft, Mas Bagua and Boat Jail.",
+   "tags": [
+    "indie",
+    "holiday",
+    "local"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-12-12-schism-a-dark-alt-dance-night",
+   "area": "home",
+   "title": "Schism: A Dark Alt Dance Night",
+   "category": "nightlife",
+   "start": "2026-12-12T22:00",
+   "venue": "Ace of Cups",
+   "cost": "$5 cash/Venmo",
+   "free": false,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 84,
+   "description": "Dark alt dance night at Ace of Cups, 21+.",
+   "tags": [
+    "goth",
+    "dance-party",
+    "darkwave"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-12-12-lez-dance",
+   "area": "home",
+   "title": "Lez Dance",
+   "category": "nightlife",
+   "start": "2026-12-12T21:00",
+   "venue": "Slammers Bar & Pizza Kitchen",
+   "cost": "See site",
+   "free": null,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 66,
+   "description": "Dance night at Slammers, Columbus's lesbian bar.",
+   "tags": [
+    "lgbtq",
+    "dance-party"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-12-13-shampoo-for-the-monks-holding-hands-visitor-cosm",
+   "area": "home",
+   "title": "Shampoo for the Monks, Holding Hands, Visitor & Cosmic Graffiti",
+   "category": "music",
+   "start": "2026-12-13T18:00",
+   "venue": "The Summit Music Hall",
+   "cost": "$10-$15",
+   "free": false,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 64,
+   "description": "Local indie/rock bill at The Summit.",
+   "tags": [
+    "indie",
+    "concert",
+    "local"
+   ],
+   "source": "Cringe Columbus listings"
+  },
+  {
+   "id": "2026-12-13-candlelight-coldplay-imagine-dragons",
+   "area": "home",
+   "title": "Candlelight: Coldplay & Imagine Dragons",
+   "category": "music",
+   "start": "2026-12-13T20:45",
+   "venue": "Columbus Museum of Art",
+   "cost": "$35+",
+   "free": false,
+   "url": "https://cringe.com/all4weeks.php",
+   "base": 58,
+   "description": "Candlelit string tribute to Coldplay and Imagine Dragons. Ages 8+.",
+   "tags": [
+    "concert",
+    "candlelight"
+   ],
+   "source": "Cringe Columbus listings"
   }
  ]
 }
